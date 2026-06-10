@@ -164,8 +164,7 @@ fetch('dados.json')
   .then(function(d){
     DATA = d;
     document.getElementById('htime').textContent =
-      'Dados de ' + new Date().toLocaleDateString('pt-BR',
-        {day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
+      'Dados de 10/06/2026';
     document.getElementById('loading-geral').style.display = 'none';
     document.getElementById('statsGrid').style.display = 'grid';
     document.getElementById('coordTitle').style.display = 'block';
