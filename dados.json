@@ -3,7 +3,7 @@
     "coordenacoes": 8,
     "supervisoes_cadastradas": 33,
     "gcs_cadastrados": 21,
-    "membros": 282
+    "membros": 306
   },
   "coords": [
     {
@@ -440,14 +440,14 @@
               "lider": "Faby",
               "lider2": "Daniel",
               "lider_cadastrado": false,
-              "membros": 2
+              "membros": 4
             },
             {
               "nome": "GC Philos",
               "lider": "Claudinha",
               "lider2": "Guilherme",
               "lider_cadastrado": false,
-              "membros": 0
+              "membros": 1
             },
             {
               "nome": "GC Revayah",
@@ -2039,14 +2039,14 @@
           "lider": "Faby",
           "lider2": "Daniel",
           "lider_cadastrado": false,
-          "membros": 2
+          "membros": 4
         },
         {
           "nome": "GC Philos",
           "lider": "Claudinha",
           "lider2": "Guilherme",
           "lider_cadastrado": false,
-          "membros": 0
+          "membros": 1
         },
         {
           "nome": "GC Revayah",
