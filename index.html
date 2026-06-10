@@ -162,6 +162,14 @@ fetch('dados.json')
     console.error(err);
   });
 
+// Event delegation para botões de ministério (evita problemas com onclick em strings complexas)
+document.addEventListener('click', function(e) {
+  var btn = e.target.closest('[data-min]');
+  if (btn && document.getElementById('minBtns').contains(btn)) {
+    setMin(btn.getAttribute('data-min'));
+  }
+});
+
 // ── Tabs ──────────────────────────────────────────────────────
 function showTab(id) {
   document.querySelectorAll('.panel').forEach(function(p){ p.classList.remove('active'); });
@@ -284,13 +292,21 @@ function renderCoords() {
 function renderMinBtns() {
   if (!DATA) return;
   var mins = DATA.ministerios || [];
-  var html = '<button class="mbtn'+(activeMin==='__all__'?' active':'')+'" onclick="setMin(\'__all__\')">Todos</button>';
+  var wrap = document.getElementById('minBtns');
+  wrap.innerHTML = '';
+  function makeBtn(label, minVal) {
+    var btn = document.createElement('button');
+    btn.className = 'mbtn' + (activeMin === minVal ? ' active' : '');
+    btn.textContent = label;
+    btn.setAttribute('data-min', minVal);
+    wrap.appendChild(btn);
+  }
+  makeBtn('Todos', '__all__');
   mins.forEach(function(m){
-    var lbl = m.replace(' — ',' ').replace(' anos','').trim();
-    html += '<button class="mbtn'+(activeMin===m?' active':'')+'" onclick="setMin('+JSON.stringify(m)+')">'+lbl+'</button>';
+    makeBtn(m.replace(' — ',' ').replace(' anos','').trim(), m);
   });
-  document.getElementById('minBtns').innerHTML = html;
 }
+
 
 function setMin(m) {
   activeMin = m;
