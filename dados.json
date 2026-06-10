@@ -2,7 +2,7 @@
   "stats": {
     "coordenacoes": 8,
     "supervisoes_cadastradas": 33,
-    "gcs_cadastrados": 35,
+    "gcs_cadastrados": 21,
     "membros": 282
   },
   "coords": [
@@ -69,7 +69,7 @@
               "lider": "Everson",
               "lider2": "Nahara",
               "lider_cadastrado": false,
-              "membros": 2
+              "membros": 0
             }
           ],
           "gcs_cadastrados": 0,
@@ -206,7 +206,7 @@
               "lider": "Felipe",
               "lider2": "Bárbara",
               "lider_cadastrado": false,
-              "membros": 1
+              "membros": 0
             },
             {
               "nome": "Gc Palavra Viva",
@@ -230,41 +230,39 @@
               "nome": "GC Bem Aventuradas",
               "lider": "Silvana Moraes",
               "lider2": "",
-              "lider_cadastrado": false,
-              "membros": 0
+              "lider_cadastrado": true,
+              "membros": 0,
+              "match_reason": "nome 0.85 + líder",
+              "gc_nome_cadastrado": "As Bem-Aventuradas"
             },
             {
               "nome": "GC Lamparinas",
               "lider": "Juliana Vieira",
               "lider2": "",
               "lider_cadastrado": true,
-              "membros": 1
+              "membros": 1,
+              "match_reason": "nome GC 1.00",
+              "gc_nome_cadastrado": "GC Lamparinas"
             },
             {
               "nome": "GC Restauradas",
               "lider": "Katia Bosford",
               "lider2": "",
               "lider_cadastrado": false,
-              "membros": 2
+              "membros": 1
             },
             {
               "nome": "GC As Conquistadoras",
               "lider": "Mazé Feitosa",
               "lider2": "",
-              "lider_cadastrado": false,
-              "membros": 0
-            },
-            {
-              "nome": "As Bem-Aventuradas",
-              "lider": "Thiciany Noca",
-              "lider2": "",
               "lider_cadastrado": true,
-              "membros": 1,
-              "inferido": true
+              "membros": 0,
+              "match_reason": "nome GC 0.90",
+              "gc_nome_cadastrado": "Conquistadoras"
             }
           ],
-          "gcs_cadastrados": 2,
-          "total_gcs": 5
+          "gcs_cadastrados": 3,
+          "total_gcs": 4
         }
       ]
     },
@@ -285,14 +283,14 @@
               "lider": "Isabel Brasil",
               "lider2": "Édson Brasil",
               "lider_cadastrado": false,
-              "membros": 2
+              "membros": 0
             },
             {
               "nome": "Gc Até que Ele Volte",
               "lider": "Suianny Vieira",
               "lider2": "Hillison Vieira",
               "lider_cadastrado": false,
-              "membros": 1
+              "membros": 0
             },
             {
               "nome": "GC Celeiros Sul",
@@ -438,7 +436,9 @@
               "lider": "VITORIA FORTE",
               "lider2": "",
               "lider_cadastrado": true,
-              "membros": 2
+              "membros": 0,
+              "match_reason": "nome GC 1.00",
+              "gc_nome_cadastrado": "GC EMUNAH"
             },
             {
               "nome": "GC DISCIPULAS",
@@ -463,14 +463,14 @@
               "lider": "Thiago",
               "lider2": "Brenda",
               "lider_cadastrado": false,
-              "membros": 4
+              "membros": 0
             },
             {
               "nome": "Águas vivas",
               "lider": "Robson",
               "lider2": "Daniele",
               "lider_cadastrado": false,
-              "membros": 4
+              "membros": 2
             },
             {
               "nome": "Diakonos",
@@ -484,14 +484,14 @@
               "lider": "Jesse",
               "lider2": "Vitória",
               "lider_cadastrado": false,
-              "membros": 5
+              "membros": 0
             },
             {
               "nome": "Aliançados",
               "lider": "Felipe",
               "lider2": "Natália",
               "lider_cadastrado": false,
-              "membros": 3
+              "membros": 2
             }
           ],
           "gcs_cadastrados": 0,
@@ -503,18 +503,9 @@
           "sup1": "Felipe Pereira de Sousa",
           "sup2": "Vitória Ingrid Monteiro Barros",
           "coord": "",
-          "gcs": [
-            {
-              "nome": "Gc fire",
-              "lider": "Felipe Pereira",
-              "lider2": "",
-              "lider_cadastrado": true,
-              "membros": 0,
-              "inferido": true
-            }
-          ],
-          "gcs_cadastrados": 1,
-          "total_gcs": 1
+          "gcs": [],
+          "gcs_cadastrados": 0,
+          "total_gcs": 0
         },
         {
           "nome": "DANIELY CAVALCANTE DE Araujo",
@@ -559,8 +550,10 @@
               "nome": "Mártires",
               "lider": "Enzo Mesquita",
               "lider2": "",
-              "lider_cadastrado": false,
-              "membros": 0
+              "lider_cadastrado": true,
+              "membros": 0,
+              "match_reason": "nome GC 0.86",
+              "gc_nome_cadastrado": "GC Mártir"
             },
             {
               "nome": "Loyal",
@@ -598,7 +591,7 @@
               "membros": 0
             }
           ],
-          "gcs_cadastrados": 0,
+          "gcs_cadastrados": 1,
           "total_gcs": 6
         },
         {
@@ -619,8 +612,10 @@
               "nome": "Convictas",
               "lider": "Rosa Torres",
               "lider2": "",
-              "lider_cadastrado": false,
-              "membros": 3
+              "lider_cadastrado": true,
+              "membros": 2,
+              "match_reason": "nome GC 0.86",
+              "gc_nome_cadastrado": "A13 uni - Gc convictas"
             },
             {
               "nome": "Virtuosas",
@@ -634,7 +629,7 @@
               "lider": "Dafne Pinheiro",
               "lider2": "",
               "lider_cadastrado": false,
-              "membros": 6
+              "membros": 4
             },
             {
               "nome": "Inabaláveis",
@@ -654,15 +649,19 @@
               "nome": "Eleitos",
               "lider": "Douglas Carvalho",
               "lider2": "",
-              "lider_cadastrado": false,
-              "membros": 0
+              "lider_cadastrado": true,
+              "membros": 0,
+              "match_reason": "nome GC 0.86",
+              "gc_nome_cadastrado": "Eleitas"
             },
             {
               "nome": "Revival",
               "lider": "Filipe Pessoa",
               "lider2": "",
-              "lider_cadastrado": false,
-              "membros": 2
+              "lider_cadastrado": true,
+              "membros": 1,
+              "match_reason": "nome GC 1.00",
+              "gc_nome_cadastrado": "GC Revival"
             },
             {
               "nome": "Logos",
@@ -676,7 +675,9 @@
               "lider": "Ruan Teles",
               "lider2": "",
               "lider_cadastrado": true,
-              "membros": 1
+              "membros": 1,
+              "match_reason": "nome GC 1.00",
+              "gc_nome_cadastrado": "Raiz"
             },
             {
               "nome": "Kairos",
@@ -684,26 +685,10 @@
               "lider2": "",
               "lider_cadastrado": false,
               "membros": 0
-            },
-            {
-              "nome": "A13 uni - Gc convictas",
-              "lider": "Felipe Pinheiro",
-              "lider2": "",
-              "lider_cadastrado": true,
-              "membros": 0,
-              "inferido": true
-            },
-            {
-              "nome": "GC Revival",
-              "lider": "Felipe Pinheiro",
-              "lider2": "",
-              "lider_cadastrado": true,
-              "membros": 0,
-              "inferido": true
             }
           ],
-          "gcs_cadastrados": 3,
-          "total_gcs": 13
+          "gcs_cadastrados": 4,
+          "total_gcs": 11
         },
         {
           "nome": "Supervisão salt",
@@ -723,8 +708,10 @@
               "nome": "Gc Fortes",
               "lider": "Mario Henrique Costa da Silva",
               "lider2": "",
-              "lider_cadastrado": false,
-              "membros": 1
+              "lider_cadastrado": true,
+              "membros": 0,
+              "match_reason": "nome GC 1.00",
+              "gc_nome_cadastrado": "Fortes"
             },
             {
               "nome": "Gc Incensários",
@@ -738,7 +725,7 @@
               "lider": "Maria Eduarda Neves Sampaio",
               "lider2": "",
               "lider_cadastrado": false,
-              "membros": 7
+              "membros": 2
             },
             {
               "nome": "Gc Martir",
@@ -751,36 +738,23 @@
               "nome": "GC Talmidin",
               "lider": "Jean Victor Carneiro",
               "lider2": "",
-              "lider_cadastrado": false,
-              "membros": 1
-            },
-            {
-              "nome": "GC Talmidim",
-              "lider": "Felipe Martins",
-              "lider2": "",
               "lider_cadastrado": true,
-              "membros": 3,
-              "inferido": true
-            },
-            {
-              "nome": "Fortes",
-              "lider": "Felipe Martins",
-              "lider2": "",
-              "lider_cadastrado": true,
-              "membros": 2,
-              "inferido": true
+              "membros": 0,
+              "match_reason": "nome GC 0.88",
+              "gc_nome_cadastrado": "GC Talmidim"
             },
             {
               "nome": "GC Mártir",
-              "lider": "FELIPE MARTINS",
+              "lider": "Felipe Yander Gomes de Oliveira",
               "lider2": "",
               "lider_cadastrado": true,
-              "membros": 1,
-              "inferido": true
+              "membros": 0,
+              "inferido": true,
+              "match_reason": "sup \"FELIPE MARTINS\" ≈ \"Felipe Martins Costa\""
             }
           ],
           "gcs_cadastrados": 3,
-          "total_gcs": 9
+          "total_gcs": 7
         },
         {
           "nome": "Supervisão Light",
@@ -793,22 +767,28 @@
               "nome": "GC Brilhantes",
               "lider": "Maria Eduarda de Oliveira Bezerra Medeiros",
               "lider2": "",
-              "lider_cadastrado": false,
-              "membros": 2
+              "lider_cadastrado": true,
+              "membros": 0,
+              "match_reason": "nome GC 1.00",
+              "gc_nome_cadastrado": "Brilhantes"
             },
             {
               "nome": "GC Awaken",
               "lider": "Matheus Costa de Freitas",
               "lider2": "",
               "lider_cadastrado": true,
-              "membros": 0
+              "membros": 0,
+              "match_reason": "nome GC 1.00",
+              "gc_nome_cadastrado": "GC Awaken"
             },
             {
               "nome": "GC Lamparinas",
               "lider": "Victor Miranda de Freitas",
               "lider2": "",
               "lider_cadastrado": true,
-              "membros": 1
+              "membros": 1,
+              "match_reason": "nome GC 1.00",
+              "gc_nome_cadastrado": "GC Lamparinas"
             },
             {
               "nome": "Matheus de Souza Gonçalves",
@@ -818,24 +798,17 @@
               "membros": 0
             },
             {
-              "nome": "Brilhantes",
-              "lider": "Karla Siebra",
-              "lider2": "",
-              "lider_cadastrado": true,
-              "membros": 1,
-              "inferido": true
-            },
-            {
               "nome": "GC ESSÊNCIA",
-              "lider": "Caio Siebra",
+              "lider": "Matheus de Souza Gonçalves",
               "lider2": "",
               "lider_cadastrado": true,
               "membros": 1,
-              "inferido": true
+              "inferido": true,
+              "match_reason": "sup \"Caio Siebra\" ≈ \"Karla Raissa Barroso de Freitas Siebra\""
             }
           ],
           "gcs_cadastrados": 4,
-          "total_gcs": 6
+          "total_gcs": 5
         },
         {
           "nome": "Supervisão DEEP",
@@ -941,7 +914,7 @@
               "lider": "Faby",
               "lider2": "Daniel",
               "lider_cadastrado": false,
-              "membros": 3
+              "membros": 2
             },
             {
               "nome": "GC Philos",
@@ -962,7 +935,7 @@
               "lider": "Mara",
               "lider2": "Denisio",
               "lider_cadastrado": false,
-              "membros": 1
+              "membros": 0
             }
           ],
           "gcs_cadastrados": 0,
@@ -1035,18 +1008,20 @@
               "nome": "Facilitadores",
               "lider": "Lucas Araujo",
               "lider2": "",
-              "lider_cadastrado": false,
-              "membros": 0
+              "lider_cadastrado": true,
+              "membros": 0,
+              "match_reason": "nome GC 0.87",
+              "gc_nome_cadastrado": "Gc dos facilitadores"
             },
             {
               "nome": "Destemidas",
               "lider": "Gabrielly",
               "lider2": "",
               "lider_cadastrado": false,
-              "membros": 1
+              "membros": 0
             }
           ],
-          "gcs_cadastrados": 0,
+          "gcs_cadastrados": 1,
           "total_gcs": 6
         },
         {
@@ -1079,7 +1054,7 @@
               "lider": "Cassio",
               "lider2": "Valéria",
               "lider_cadastrado": false,
-              "membros": 1
+              "membros": 0
             },
             {
               "nome": "GC Sal e Luz",
@@ -1118,7 +1093,9 @@
               "lider": "Beatriz Souza",
               "lider2": "",
               "lider_cadastrado": true,
-              "membros": 2
+              "membros": 1,
+              "match_reason": "nome GC 1.00",
+              "gc_nome_cadastrado": "Gc das Pérolas"
             },
             {
               "nome": "Gc das Iluminadas",
@@ -1225,9 +1202,38 @@
           "sup1": "Carlos Eduardo Gomes de Carvalho",
           "sup2": "Idemara Carla Pires Lourenço de Carvalho",
           "coord": "",
-          "gcs": [],
+          "gcs": [
+            {
+              "nome": "",
+              "lider": "Alexandre Barros",
+              "lider2": "Germana Marques",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "",
+              "lider": "André Ribeiro",
+              "lider2": "Bruna Ribeiro",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "",
+              "lider": "Sales Soares",
+              "lider2": "Sheila Pasold",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "",
+              "lider": "Antônio Carlos",
+              "lider2": "Berenice Hannibal",
+              "lider_cadastrado": false,
+              "membros": 0
+            }
+          ],
           "gcs_cadastrados": 0,
-          "total_gcs": 0
+          "total_gcs": 4
         },
         {
           "nome": "Supervisão Um só Coração",
@@ -1339,8 +1345,10 @@
               "nome": "Recomeço",
               "lider": "Lídia",
               "lider2": "",
-              "lider_cadastrado": false,
-              "membros": 0
+              "lider_cadastrado": true,
+              "membros": 0,
+              "match_reason": "nome GC 1.00",
+              "gc_nome_cadastrado": "GC RECOMEÇO"
             },
             {
               "nome": "Aprisco",
@@ -1362,18 +1370,10 @@
               "lider2": "",
               "lider_cadastrado": false,
               "membros": 0
-            },
-            {
-              "nome": "GC RECOMEÇO",
-              "lider": "Deniza Andrade",
-              "lider2": "",
-              "lider_cadastrado": true,
-              "membros": 0,
-              "inferido": true
             }
           ],
           "gcs_cadastrados": 1,
-          "total_gcs": 6
+          "total_gcs": 5
         },
         {
           "nome": "Virtuosas",
@@ -1386,15 +1386,19 @@
               "nome": "Alfa",
               "lider": "Maria Betânia Rabelo Leite",
               "lider2": "",
-              "lider_cadastrado": false,
-              "membros": 0
+              "lider_cadastrado": true,
+              "membros": 0,
+              "match_reason": "nome GC 1.00",
+              "gc_nome_cadastrado": "Gc Alfa"
             },
             {
               "nome": "Pérolas",
               "lider": "Ana Greycy Do Vale Alves",
               "lider2": "",
-              "lider_cadastrado": false,
-              "membros": 0
+              "lider_cadastrado": true,
+              "membros": 0,
+              "match_reason": "nome GC 1.00",
+              "gc_nome_cadastrado": "GC PÉROLAS"
             },
             {
               "nome": "Conectadas",
@@ -1402,26 +1406,10 @@
               "lider2": "",
               "lider_cadastrado": false,
               "membros": 0
-            },
-            {
-              "nome": "Gc Alfa",
-              "lider": "Francisca Valéria",
-              "lider2": "",
-              "lider_cadastrado": true,
-              "membros": 0,
-              "inferido": true
-            },
-            {
-              "nome": "GC PÉROLAS",
-              "lider": "Francisca Valéria Silveira",
-              "lider2": "",
-              "lider_cadastrado": true,
-              "membros": 1,
-              "inferido": true
             }
           ],
           "gcs_cadastrados": 2,
-          "total_gcs": 5
+          "total_gcs": 3
         }
       ]
     }
@@ -1492,7 +1480,9 @@
           "lider": "VITORIA FORTE",
           "lider2": "",
           "lider_cadastrado": true,
-          "membros": 2
+          "membros": 0,
+          "match_reason": "nome GC 1.00",
+          "gc_nome_cadastrado": "GC EMUNAH"
         },
         {
           "nome": "GC DISCIPULAS",
@@ -1517,14 +1507,14 @@
           "lider": "Thiago",
           "lider2": "Brenda",
           "lider_cadastrado": false,
-          "membros": 4
+          "membros": 0
         },
         {
           "nome": "Águas vivas",
           "lider": "Robson",
           "lider2": "Daniele",
           "lider_cadastrado": false,
-          "membros": 4
+          "membros": 2
         },
         {
           "nome": "Diakonos",
@@ -1538,14 +1528,14 @@
           "lider": "Jesse",
           "lider2": "Vitória",
           "lider_cadastrado": false,
-          "membros": 5
+          "membros": 0
         },
         {
           "nome": "Aliançados",
           "lider": "Felipe",
           "lider2": "Natália",
           "lider_cadastrado": false,
-          "membros": 3
+          "membros": 2
         }
       ],
       "gcs_cadastrados": 0,
@@ -1557,18 +1547,9 @@
       "sup1": "Felipe Pereira de Sousa",
       "sup2": "Vitória Ingrid Monteiro Barros",
       "coord": "",
-      "gcs": [
-        {
-          "nome": "Gc fire",
-          "lider": "Felipe Pereira",
-          "lider2": "",
-          "lider_cadastrado": true,
-          "membros": 0,
-          "inferido": true
-        }
-      ],
-      "gcs_cadastrados": 1,
-      "total_gcs": 1
+      "gcs": [],
+      "gcs_cadastrados": 0,
+      "total_gcs": 0
     },
     {
       "nome": "DANIELY CAVALCANTE DE Araujo",
@@ -1628,7 +1609,7 @@
           "lider": "Felipe",
           "lider2": "Bárbara",
           "lider_cadastrado": false,
-          "membros": 1
+          "membros": 0
         },
         {
           "nome": "Gc Palavra Viva",
@@ -1652,8 +1633,10 @@
           "nome": "Mártires",
           "lider": "Enzo Mesquita",
           "lider2": "",
-          "lider_cadastrado": false,
-          "membros": 0
+          "lider_cadastrado": true,
+          "membros": 0,
+          "match_reason": "nome GC 0.86",
+          "gc_nome_cadastrado": "GC Mártir"
         },
         {
           "nome": "Loyal",
@@ -1691,7 +1674,7 @@
           "membros": 0
         }
       ],
-      "gcs_cadastrados": 0,
+      "gcs_cadastrados": 1,
       "total_gcs": 6
     },
     {
@@ -1712,8 +1695,10 @@
           "nome": "Convictas",
           "lider": "Rosa Torres",
           "lider2": "",
-          "lider_cadastrado": false,
-          "membros": 3
+          "lider_cadastrado": true,
+          "membros": 2,
+          "match_reason": "nome GC 0.86",
+          "gc_nome_cadastrado": "A13 uni - Gc convictas"
         },
         {
           "nome": "Virtuosas",
@@ -1727,7 +1712,7 @@
           "lider": "Dafne Pinheiro",
           "lider2": "",
           "lider_cadastrado": false,
-          "membros": 6
+          "membros": 4
         },
         {
           "nome": "Inabaláveis",
@@ -1747,15 +1732,19 @@
           "nome": "Eleitos",
           "lider": "Douglas Carvalho",
           "lider2": "",
-          "lider_cadastrado": false,
-          "membros": 0
+          "lider_cadastrado": true,
+          "membros": 0,
+          "match_reason": "nome GC 0.86",
+          "gc_nome_cadastrado": "Eleitas"
         },
         {
           "nome": "Revival",
           "lider": "Filipe Pessoa",
           "lider2": "",
-          "lider_cadastrado": false,
-          "membros": 2
+          "lider_cadastrado": true,
+          "membros": 1,
+          "match_reason": "nome GC 1.00",
+          "gc_nome_cadastrado": "GC Revival"
         },
         {
           "nome": "Logos",
@@ -1769,7 +1758,9 @@
           "lider": "Ruan Teles",
           "lider2": "",
           "lider_cadastrado": true,
-          "membros": 1
+          "membros": 1,
+          "match_reason": "nome GC 1.00",
+          "gc_nome_cadastrado": "Raiz"
         },
         {
           "nome": "Kairos",
@@ -1777,26 +1768,10 @@
           "lider2": "",
           "lider_cadastrado": false,
           "membros": 0
-        },
-        {
-          "nome": "A13 uni - Gc convictas",
-          "lider": "Felipe Pinheiro",
-          "lider2": "",
-          "lider_cadastrado": true,
-          "membros": 0,
-          "inferido": true
-        },
-        {
-          "nome": "GC Revival",
-          "lider": "Felipe Pinheiro",
-          "lider2": "",
-          "lider_cadastrado": true,
-          "membros": 0,
-          "inferido": true
         }
       ],
-      "gcs_cadastrados": 3,
-      "total_gcs": 13
+      "gcs_cadastrados": 4,
+      "total_gcs": 11
     },
     {
       "nome": "Supervisão salt",
@@ -1816,8 +1791,10 @@
           "nome": "Gc Fortes",
           "lider": "Mario Henrique Costa da Silva",
           "lider2": "",
-          "lider_cadastrado": false,
-          "membros": 1
+          "lider_cadastrado": true,
+          "membros": 0,
+          "match_reason": "nome GC 1.00",
+          "gc_nome_cadastrado": "Fortes"
         },
         {
           "nome": "Gc Incensários",
@@ -1831,7 +1808,7 @@
           "lider": "Maria Eduarda Neves Sampaio",
           "lider2": "",
           "lider_cadastrado": false,
-          "membros": 7
+          "membros": 2
         },
         {
           "nome": "Gc Martir",
@@ -1844,36 +1821,23 @@
           "nome": "GC Talmidin",
           "lider": "Jean Victor Carneiro",
           "lider2": "",
-          "lider_cadastrado": false,
-          "membros": 1
-        },
-        {
-          "nome": "GC Talmidim",
-          "lider": "Felipe Martins",
-          "lider2": "",
           "lider_cadastrado": true,
-          "membros": 3,
-          "inferido": true
-        },
-        {
-          "nome": "Fortes",
-          "lider": "Felipe Martins",
-          "lider2": "",
-          "lider_cadastrado": true,
-          "membros": 2,
-          "inferido": true
+          "membros": 0,
+          "match_reason": "nome GC 0.88",
+          "gc_nome_cadastrado": "GC Talmidim"
         },
         {
           "nome": "GC Mártir",
-          "lider": "FELIPE MARTINS",
+          "lider": "Felipe Yander Gomes de Oliveira",
           "lider2": "",
           "lider_cadastrado": true,
-          "membros": 1,
-          "inferido": true
+          "membros": 0,
+          "inferido": true,
+          "match_reason": "sup \"FELIPE MARTINS\" ≈ \"Felipe Martins Costa\""
         }
       ],
       "gcs_cadastrados": 3,
-      "total_gcs": 9
+      "total_gcs": 7
     },
     {
       "nome": "Supervisão Light",
@@ -1886,22 +1850,28 @@
           "nome": "GC Brilhantes",
           "lider": "Maria Eduarda de Oliveira Bezerra Medeiros",
           "lider2": "",
-          "lider_cadastrado": false,
-          "membros": 2
+          "lider_cadastrado": true,
+          "membros": 0,
+          "match_reason": "nome GC 1.00",
+          "gc_nome_cadastrado": "Brilhantes"
         },
         {
           "nome": "GC Awaken",
           "lider": "Matheus Costa de Freitas",
           "lider2": "",
           "lider_cadastrado": true,
-          "membros": 0
+          "membros": 0,
+          "match_reason": "nome GC 1.00",
+          "gc_nome_cadastrado": "GC Awaken"
         },
         {
           "nome": "GC Lamparinas",
           "lider": "Victor Miranda de Freitas",
           "lider2": "",
           "lider_cadastrado": true,
-          "membros": 1
+          "membros": 1,
+          "match_reason": "nome GC 1.00",
+          "gc_nome_cadastrado": "GC Lamparinas"
         },
         {
           "nome": "Matheus de Souza Gonçalves",
@@ -1911,24 +1881,17 @@
           "membros": 0
         },
         {
-          "nome": "Brilhantes",
-          "lider": "Karla Siebra",
-          "lider2": "",
-          "lider_cadastrado": true,
-          "membros": 1,
-          "inferido": true
-        },
-        {
           "nome": "GC ESSÊNCIA",
-          "lider": "Caio Siebra",
+          "lider": "Matheus de Souza Gonçalves",
           "lider2": "",
           "lider_cadastrado": true,
           "membros": 1,
-          "inferido": true
+          "inferido": true,
+          "match_reason": "sup \"Caio Siebra\" ≈ \"Karla Raissa Barroso de Freitas Siebra\""
         }
       ],
       "gcs_cadastrados": 4,
-      "total_gcs": 6
+      "total_gcs": 5
     },
     {
       "nome": "Florescer",
@@ -1942,14 +1905,14 @@
           "lider": "Isabel Brasil",
           "lider2": "Édson Brasil",
           "lider_cadastrado": false,
-          "membros": 2
+          "membros": 0
         },
         {
           "nome": "Gc Até que Ele Volte",
           "lider": "Suianny Vieira",
           "lider2": "Hillison Vieira",
           "lider_cadastrado": false,
-          "membros": 1
+          "membros": 0
         },
         {
           "nome": "GC Celeiros Sul",
@@ -2105,7 +2068,7 @@
           "lider": "Faby",
           "lider2": "Daniel",
           "lider_cadastrado": false,
-          "membros": 3
+          "membros": 2
         },
         {
           "nome": "GC Philos",
@@ -2126,7 +2089,7 @@
           "lider": "Mara",
           "lider2": "Denisio",
           "lider_cadastrado": false,
-          "membros": 1
+          "membros": 0
         }
       ],
       "gcs_cadastrados": 0,
@@ -2209,18 +2172,20 @@
           "nome": "Facilitadores",
           "lider": "Lucas Araujo",
           "lider2": "",
-          "lider_cadastrado": false,
-          "membros": 0
+          "lider_cadastrado": true,
+          "membros": 0,
+          "match_reason": "nome GC 0.87",
+          "gc_nome_cadastrado": "Gc dos facilitadores"
         },
         {
           "nome": "Destemidas",
           "lider": "Gabrielly",
           "lider2": "",
           "lider_cadastrado": false,
-          "membros": 1
+          "membros": 0
         }
       ],
-      "gcs_cadastrados": 0,
+      "gcs_cadastrados": 1,
       "total_gcs": 6
     },
     {
@@ -2253,7 +2218,7 @@
           "lider": "Cassio",
           "lider2": "Valéria",
           "lider_cadastrado": false,
-          "membros": 1
+          "membros": 0
         },
         {
           "nome": "GC Sal e Luz",
@@ -2291,41 +2256,39 @@
           "nome": "GC Bem Aventuradas",
           "lider": "Silvana Moraes",
           "lider2": "",
-          "lider_cadastrado": false,
-          "membros": 0
+          "lider_cadastrado": true,
+          "membros": 0,
+          "match_reason": "nome 0.85 + líder",
+          "gc_nome_cadastrado": "As Bem-Aventuradas"
         },
         {
           "nome": "GC Lamparinas",
           "lider": "Juliana Vieira",
           "lider2": "",
           "lider_cadastrado": true,
-          "membros": 1
+          "membros": 1,
+          "match_reason": "nome GC 1.00",
+          "gc_nome_cadastrado": "GC Lamparinas"
         },
         {
           "nome": "GC Restauradas",
           "lider": "Katia Bosford",
           "lider2": "",
           "lider_cadastrado": false,
-          "membros": 2
+          "membros": 1
         },
         {
           "nome": "GC As Conquistadoras",
           "lider": "Mazé Feitosa",
           "lider2": "",
-          "lider_cadastrado": false,
-          "membros": 0
-        },
-        {
-          "nome": "As Bem-Aventuradas",
-          "lider": "Thiciany Noca",
-          "lider2": "",
           "lider_cadastrado": true,
-          "membros": 1,
-          "inferido": true
+          "membros": 0,
+          "match_reason": "nome GC 0.90",
+          "gc_nome_cadastrado": "Conquistadoras"
         }
       ],
-      "gcs_cadastrados": 2,
-      "total_gcs": 5
+      "gcs_cadastrados": 3,
+      "total_gcs": 4
     },
     {
       "nome": "Supervisão Abrigo",
@@ -2339,7 +2302,9 @@
           "lider": "Beatriz Souza",
           "lider2": "",
           "lider_cadastrado": true,
-          "membros": 2
+          "membros": 1,
+          "match_reason": "nome GC 1.00",
+          "gc_nome_cadastrado": "Gc das Pérolas"
         },
         {
           "nome": "Gc das Iluminadas",
@@ -2446,9 +2411,38 @@
       "sup1": "Carlos Eduardo Gomes de Carvalho",
       "sup2": "Idemara Carla Pires Lourenço de Carvalho",
       "coord": "",
-      "gcs": [],
+      "gcs": [
+        {
+          "nome": "",
+          "lider": "Alexandre Barros",
+          "lider2": "Germana Marques",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "",
+          "lider": "André Ribeiro",
+          "lider2": "Bruna Ribeiro",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "",
+          "lider": "Sales Soares",
+          "lider2": "Sheila Pasold",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "",
+          "lider": "Antônio Carlos",
+          "lider2": "Berenice Hannibal",
+          "lider_cadastrado": false,
+          "membros": 0
+        }
+      ],
       "gcs_cadastrados": 0,
-      "total_gcs": 0
+      "total_gcs": 4
     },
     {
       "nome": "Supervisão Um só Coração",
@@ -2592,8 +2586,10 @@
           "nome": "Recomeço",
           "lider": "Lídia",
           "lider2": "",
-          "lider_cadastrado": false,
-          "membros": 0
+          "lider_cadastrado": true,
+          "membros": 0,
+          "match_reason": "nome GC 1.00",
+          "gc_nome_cadastrado": "GC RECOMEÇO"
         },
         {
           "nome": "Aprisco",
@@ -2615,18 +2611,10 @@
           "lider2": "",
           "lider_cadastrado": false,
           "membros": 0
-        },
-        {
-          "nome": "GC RECOMEÇO",
-          "lider": "Deniza Andrade",
-          "lider2": "",
-          "lider_cadastrado": true,
-          "membros": 0,
-          "inferido": true
         }
       ],
       "gcs_cadastrados": 1,
-      "total_gcs": 6
+      "total_gcs": 5
     },
     {
       "nome": "Supervisão Maranata",
@@ -2686,7 +2674,7 @@
           "lider": "Everson",
           "lider2": "Nahara",
           "lider_cadastrado": false,
-          "membros": 2
+          "membros": 0
         }
       ],
       "gcs_cadastrados": 0,
@@ -2749,15 +2737,19 @@
           "nome": "Alfa",
           "lider": "Maria Betânia Rabelo Leite",
           "lider2": "",
-          "lider_cadastrado": false,
-          "membros": 0
+          "lider_cadastrado": true,
+          "membros": 0,
+          "match_reason": "nome GC 1.00",
+          "gc_nome_cadastrado": "Gc Alfa"
         },
         {
           "nome": "Pérolas",
           "lider": "Ana Greycy Do Vale Alves",
           "lider2": "",
-          "lider_cadastrado": false,
-          "membros": 0
+          "lider_cadastrado": true,
+          "membros": 0,
+          "match_reason": "nome GC 1.00",
+          "gc_nome_cadastrado": "GC PÉROLAS"
         },
         {
           "nome": "Conectadas",
@@ -2765,26 +2757,10 @@
           "lider2": "",
           "lider_cadastrado": false,
           "membros": 0
-        },
-        {
-          "nome": "Gc Alfa",
-          "lider": "Francisca Valéria",
-          "lider2": "",
-          "lider_cadastrado": true,
-          "membros": 0,
-          "inferido": true
-        },
-        {
-          "nome": "GC PÉROLAS",
-          "lider": "Francisca Valéria Silveira",
-          "lider2": "",
-          "lider_cadastrado": true,
-          "membros": 1,
-          "inferido": true
         }
       ],
       "gcs_cadastrados": 2,
-      "total_gcs": 5
+      "total_gcs": 3
     }
   ],
   "ministerios": [
