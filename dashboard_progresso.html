@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Painel de Cadastramento — CCVideira Sul</title>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --black: #0d0d0d; --gray-900: #1a1a1a; --gray-700: #444;
+  --gray-600: #5f5f5f; --gray-500: #7a7a7a; --gray-400: #9e9e9e;
+  --gray-300: #c4c4c4; --gray-200: #e2e2e2; --gray-100: #f2f2f2;
+  --gray-50: #f8f8f8; --white: #fff;
+  --green: #16a37a; --green-light: #e6f7f2;
+  --amber: #d97706;  --amber-light: #fef3c7;
+  --border: #e2e2e2; --radius: 10px;
+  --shadow: 0 1px 4px rgba(0,0,0,.07);
+}
+body { font-family:'Sora',sans-serif; background:#ececec; color:var(--gray-900); min-height:100vh; }
+header { background:var(--black); padding:20px 32px; display:flex; align-items:center; justify-content:space-between; position:sticky; top:0; z-index:100; }
+.hbrand { color:#fff; font-size:13px; font-weight:600; letter-spacing:.06em; text-transform:uppercase; }
+.hsub   { color:var(--gray-400); font-size:11px; font-family:'DM Mono',monospace; margin-top:2px; }
+.htime  { font-size:11px; color:var(--gray-400); font-family:'DM Mono',monospace; }
+.page   { max-width:1100px; margin:0 auto; padding:28px 20px 60px; }
+
+.tabs { display:flex; gap:4px; margin-bottom:24px; background:var(--white); border-radius:10px; padding:4px; box-shadow:var(--shadow); width:fit-content; }
+.tbtn { padding:8px 20px; border:none; border-radius:7px; font-family:'Sora',sans-serif; font-size:13px; font-weight:500; cursor:pointer; transition:all .15s; background:none; color:var(--gray-600); }
+.tbtn.active { background:var(--black); color:#fff; }
+.tbtn:not(.active):hover { background:var(--gray-100); }
+.panel { display:none; } .panel.active { display:block; }
+
+.stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:12px; margin-bottom:28px; }
+.scard { background:var(--white); border-radius:var(--radius); padding:18px 20px; box-shadow:var(--shadow); }
+.slabel { font-size:11px; font-weight:600; color:var(--gray-500); text-transform:uppercase; letter-spacing:.07em; margin-bottom:8px; }
+.sval   { font-size:32px; font-weight:600; color:var(--black); line-height:1; }
+.ssub   { font-size:11px; color:var(--gray-400); margin-top:6px; font-family:'DM Mono',monospace; }
+
+.sec-title { font-size:13px; font-weight:600; color:var(--gray-700); text-transform:uppercase; letter-spacing:.07em; margin-bottom:14px; }
+
+.searchbar { position:relative; margin-bottom:20px; }
+.searchbar input { width:100%; padding:10px 16px 10px 38px; border:1.5px solid var(--border); border-radius:var(--radius); font-family:'Sora',sans-serif; font-size:14px; background:var(--white); outline:none; }
+.searchbar input:focus { border-color:var(--black); }
+.searchbar svg { position:absolute; left:12px; top:50%; transform:translateY(-50%); }
+
+.card { background:var(--white); border-radius:12px; margin-bottom:12px; box-shadow:var(--shadow); overflow:hidden; }
+.card-hdr { padding:16px 20px; display:flex; align-items:center; justify-content:space-between; cursor:pointer; transition:background .1s; }
+.card-hdr:hover { background:var(--gray-50); }
+.card-hdr.open { border-bottom:1.5px solid var(--border); }
+.card-body { display:none; padding:12px 20px 16px; }
+.card-body.open { display:block; }
+.cname { font-size:15px; font-weight:600; color:var(--black); }
+.cmeta { font-size:12px; color:var(--gray-400); margin-top:2px; }
+.cright { display:flex; align-items:center; gap:12px; flex-shrink:0; }
+
+.scard2 { border:1.5px solid var(--border); border-radius:8px; margin-bottom:8px; overflow:hidden; }
+.scard2-hdr { padding:11px 14px; display:flex; align-items:center; justify-content:space-between; cursor:pointer; background:var(--gray-50); }
+.scard2-hdr:hover { background:var(--gray-100); }
+.scard2-hdr.open { border-bottom:1px solid var(--border); background:var(--gray-100); }
+.scard2-body { display:none; padding:10px 14px; }
+.scard2-body.open { display:block; }
+.sname { font-size:13px; font-weight:600; color:var(--gray-900); }
+.smeta { font-size:11px; color:var(--gray-400); margin-top:1px; }
+
+.badge { font-size:11px; font-weight:600; padding:3px 10px; border-radius:100px; font-family:'DM Mono',monospace; }
+.bg  { background:var(--green-light); color:#0a6b50; }
+.ba  { background:var(--amber-light); color:#92400e; }
+.bgr { background:var(--gray-100); color:var(--gray-600); }
+.chevron { transition:transform .2s; color:var(--gray-400); flex-shrink:0; }
+.chevron.open { transform:rotate(180deg); }
+
+table { width:100%; border-collapse:collapse; font-size:12px; }
+th { text-align:left; padding:6px 10px; font-size:10px; font-weight:600; text-transform:uppercase; letter-spacing:.06em; color:var(--gray-400); border-bottom:1.5px solid var(--border); }
+td { padding:8px 10px; border-bottom:1px solid var(--gray-100); color:var(--gray-700); vertical-align:top; }
+tr:last-child td { border-bottom:none; }
+tr:hover td { background:var(--gray-50); }
+.dot { width:8px; height:8px; border-radius:50%; display:inline-block; margin-right:6px; }
+.dg { background:var(--green); } .da { background:var(--amber); }
+.sc { display:flex; align-items:center; }
+.tinf { font-size:10px; padding:1px 7px; border-radius:100px; background:#f0f0ff; color:#4444aa; font-weight:600; margin-left:6px; font-family:'DM Mono',monospace; }
+
+.minbtns { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:20px; }
+.mbtn { padding:7px 16px; border:1.5px solid var(--border); border-radius:100px; font-family:'Sora',sans-serif; font-size:12px; font-weight:500; cursor:pointer; background:var(--white); color:var(--gray-700); transition:all .15s; white-space:nowrap; }
+.mbtn:hover { border-color:var(--gray-700); }
+.mbtn.active { background:var(--black); color:#fff; border-color:var(--black); }
+
+.empty { text-align:center; padding:40px 20px; color:var(--gray-400); font-size:13px; }
+.loading { text-align:center; padding:60px 20px; color:var(--gray-400); font-size:14px; }
+
+@media(max-width:600px){
+  header{padding:14px 16px;} .page{padding:16px 12px 60px;}
+  .sval{font-size:26px;} .tabs{width:100%;}
+  .tbtn{flex:1;padding:8px 6px;font-size:11px;}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <div class="hbrand">CCVideira Sul</div>
+    <div class="hsub">Painel de Acompanhamento — Migração InPeace</div>
+  </div>
+  <div class="htime" id="htime"></div>
+</header>
+
+<div class="page">
+  <div class="tabs">
+    <button class="tbtn active" id="btn-geral" onclick="showTab('geral')">Visão Geral</button>
+    <button class="tbtn" id="btn-coord" onclick="showTab('coord')">Por Coordenação</button>
+    <button class="tbtn" id="btn-sup" onclick="showTab('sup')">Por Supervisão</button>
+  </div>
+
+  <div class="panel active" id="tab-geral">
+    <div class="loading" id="loading-geral">Carregando dados...</div>
+    <div id="statsGrid" style="display:none"></div>
+    <div class="sec-title" id="coordTitle" style="display:none">Progresso por coordenação</div>
+    <div id="coordSummary"></div>
+  </div>
+
+  <div class="panel" id="tab-coord">
+    <div class="searchbar">
+      <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="#9e9e9e" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <input type="text" id="searchCoord" placeholder="Buscar coordenação ou supervisão..." oninput="renderCoords()">
+    </div>
+    <div id="coordList"></div>
+  </div>
+
+  <div class="panel" id="tab-sup">
+    <div class="minbtns" id="minBtns"></div>
+    <div class="searchbar">
+      <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="#9e9e9e" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <input type="text" id="searchSup" placeholder="Buscar supervisão ou supervisor..." oninput="renderSups()">
+    </div>
+    <div id="supList"></div>
+  </div>
+</div>
+
+<script>
+var DATA = null;
+var activeMin = '__all__';
+
+// ── Carregar dados do JSON externo ────────────────────────────
+fetch('dados.json')
+  .then(function(r){ return r.json(); })
+  .then(function(d){
+    DATA = d;
+    document.getElementById('htime').textContent =
+      'Dados de ' + new Date().toLocaleDateString('pt-BR',
+        {day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
+    document.getElementById('loading-geral').style.display = 'none';
+    document.getElementById('statsGrid').style.display = 'grid';
+    document.getElementById('coordTitle').style.display = 'block';
+    renderGeral();
+    renderCoords();
+    renderMinBtns();
+    renderSups();
+  })
+  .catch(function(err){
+    document.getElementById('loading-geral').innerHTML =
+      '<span style="color:#dc2626">Erro ao carregar dados.json — certifique-se de que o arquivo está na mesma pasta.</span>';
+    console.error(err);
+  });
+
+// ── Tabs ──────────────────────────────────────────────────────
+function showTab(id) {
+  document.querySelectorAll('.panel').forEach(function(p){ p.classList.remove('active'); });
+  document.querySelectorAll('.tbtn').forEach(function(b){ b.classList.remove('active'); });
+  document.getElementById('tab-'+id).classList.add('active');
+  document.getElementById('btn-'+id).classList.add('active');
+}
+
+// ── Toggle cards ──────────────────────────────────────────────
+function tog(id) {
+  var wrap = document.getElementById(id);
+  var body = document.getElementById('body-'+id);
+  var chev = document.getElementById('chev-'+id);
+  var hdr  = wrap ? wrap.querySelector('.card-hdr,.scard2-hdr') : null;
+  if (!body) return;
+  var open = body.classList.toggle('open');
+  if (hdr)  hdr.classList.toggle('open', open);
+  if (chev) chev.classList.toggle('open', open);
+}
+
+// ── Helpers ───────────────────────────────────────────────────
+function chev(id) {
+  return '<svg class="chevron" id="chev-'+id+'" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>';
+}
+function gcTable(gcs) {
+  if (!gcs || gcs.length === 0)
+    return '<table><tbody><tr><td colspan="4" style="color:var(--gray-400);font-style:italic">Nenhum GC registrado.</td></tr></tbody></table>';
+  var rows = gcs.map(function(g) {
+    var dot  = g.lider_cadastrado ? 'dg' : 'da';
+    var ldr  = g.lider || g.lider2 || '—';
+    var tag  = g.inferido ? '<span class="tinf">inferido</span>' : '';
+    var mem  = g.membros > 0 ? g.membros + (g.membros>1?' membros':' membro') : '—';
+    return '<tr><td>'+(g.nome||'—')+tag+'</td><td>'+ldr+'</td>'+
+           '<td><span class="sc"><span class="dot '+dot+'"></span>'+(g.lider_cadastrado?'Cadastrado':'Pendente')+'</span></td>'+
+           '<td>'+mem+'</td></tr>';
+  }).join('');
+  return '<table><thead><tr><th>GC</th><th>Líder</th><th>Status</th><th>Membros</th></tr></thead><tbody>'+rows+'</tbody></table>';
+}
+function empty() { return '<div class="empty">Nenhum resultado.</div>'; }
+
+// ── Visão Geral ───────────────────────────────────────────────
+function renderGeral() {
+  var s = DATA.stats;
+  document.getElementById('statsGrid').innerHTML =
+    stCard('Membros cadastrados', s.membros, 'formulários enviados') +
+    stCard('Coordenações', s.coordenacoes, 'com cadastro') +
+    stCard('Supervisões cadastradas', s.supervisoes_cadastradas, 'formulários enviados') +
+    stCard('GCs com líder cadastrado', s.gcs_cadastrados, 'formulários enviados');
+
+  var html = '';
+  DATA.coords.forEach(function(c) {
+    var cadSup = c.supervisoes.length;
+    var cadGC  = c.supervisoes.reduce(function(a,s){ return a+s.gcs_cadastrados; }, 0);
+    html += '<div class="card" style="margin-bottom:8px"><div style="padding:14px 18px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px">'+
+      '<div><div class="cname">'+c.nome+'</div><div class="cmeta">'+(c.coord1||'')+(c.coord2?' · '+c.coord2:'')+'</div></div>'+
+      '<div style="display:flex;gap:20px;flex-wrap:wrap">'+
+        ibox('Supervisões', cadSup+' cadastradas')+
+        ibox('GCs', cadGC+' c/ líder')+
+      '</div></div></div>';
+  });
+  document.getElementById('coordSummary').innerHTML = html || empty();
+}
+function stCard(l,v,s){ return '<div class="scard"><div class="slabel">'+l+'</div><div class="sval">'+v+'</div><div class="ssub">'+s+'</div></div>'; }
+function ibox(l,v){ return '<div style="text-align:right"><div style="font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:var(--gray-400);margin-bottom:3px">'+l+'</div><div style="font-size:13px;font-weight:600">'+v+'</div></div>'; }
+
+// ── Por Coordenação ───────────────────────────────────────────
+function renderCoords() {
+  if (!DATA) return;
+  var filter = (document.getElementById('searchCoord').value||'').toLowerCase();
+  var html = '';
+
+  DATA.coords.forEach(function(c, ci) {
+    var matchC = !filter ||
+      (c.nome||'').toLowerCase().includes(filter) ||
+      (c.coord1||'').toLowerCase().includes(filter) ||
+      (c.coord2||'').toLowerCase().includes(filter);
+    var visSups = c.supervisoes.filter(function(s){
+      return matchC ||
+        (s.nome||'').toLowerCase().includes(filter) ||
+        (s.sup1||'').toLowerCase().includes(filter) ||
+        s.gcs.some(function(g){ return (g.nome||'').toLowerCase().includes(filter); });
+    });
+    if (!matchC && visSups.length === 0) return;
+
+    var cadGC = visSups.reduce(function(a,s){ return a+s.gcs_cadastrados; }, 0);
+    var cid = 'cc'+ci;
+
+    var supHtml = visSups.map(function(s, si) {
+      var sid = 'cs'+ci+'x'+si;
+      return '<div class="scard2" id="'+sid+'">'+
+        '<div class="scard2-hdr" onclick="tog(\''+sid+'\')">'+
+          '<div><div class="sname">'+(s.nome||'')+'</div>'+
+          '<div class="smeta">'+(s.sup1||'')+(s.sup2?' · '+s.sup2:'')+'</div></div>'+
+          '<div style="display:flex;align-items:center;gap:10px">'+
+            '<span style="font-size:11px;color:var(--gray-400);font-family:\'DM Mono\',monospace">'+s.gcs_cadastrados+' GC'+(s.gcs_cadastrados!==1?'s':'')+' c/ líder</span>'+
+            chev(sid)+
+          '</div>'+
+        '</div>'+
+        '<div class="scard2-body" id="body-'+sid+'">'+gcTable(s.gcs)+'</div>'+
+      '</div>';
+    }).join('');
+
+    html += '<div class="card" id="'+cid+'">'+
+      '<div class="card-hdr" onclick="tog(\''+cid+'\')">'+
+        '<div><div class="cname">'+(c.nome||'')+'</div>'+
+        '<div class="cmeta">'+(c.coord1||'')+(c.coord2?' · '+c.coord2:'')+'</div></div>'+
+        '<div class="cright">'+
+          '<span class="badge bgr">'+visSups.length+' sups · '+cadGC+' GCs c/ líder</span>'+
+          chev(cid)+
+        '</div>'+
+      '</div>'+
+      '<div class="card-body" id="body-'+cid+'">'+(supHtml||empty())+'</div>'+
+    '</div>';
+  });
+
+  document.getElementById('coordList').innerHTML = html || empty();
+}
+
+// ── Por Supervisão ────────────────────────────────────────────
+function renderMinBtns() {
+  if (!DATA) return;
+  var mins = DATA.ministerios || [];
+  var html = '<button class="mbtn'+(activeMin==='__all__'?' active':'')+'" onclick="setMin(\'__all__\')">Todos</button>';
+  mins.forEach(function(m){
+    var lbl = m.replace(' — ',' ').replace(' anos','').trim();
+    html += '<button class="mbtn'+(activeMin===m?' active':'')+'" onclick="setMin('+JSON.stringify(m)+')">'+lbl+'</button>';
+  });
+  document.getElementById('minBtns').innerHTML = html;
+}
+
+function setMin(m) {
+  activeMin = m;
+  renderMinBtns();
+  renderSups();
+}
+
+function renderSups() {
+  if (!DATA) return;
+  var filter = (document.getElementById('searchSup').value||'').toLowerCase();
+  var html = '';
+
+  DATA.supervisoes.forEach(function(s, si) {
+    if (activeMin !== '__all__' && s.ministerio !== activeMin) return;
+    if (filter &&
+      !(s.nome||'').toLowerCase().includes(filter) &&
+      !(s.sup1||'').toLowerCase().includes(filter) &&
+      !(s.sup2||'').toLowerCase().includes(filter)) return;
+
+    var sid = 'sc'+si;
+    html += '<div class="card" id="'+sid+'">'+
+      '<div class="card-hdr" onclick="tog(\''+sid+'\')">'+
+        '<div><div class="cname">'+(s.nome||'')+'</div>'+
+        '<div class="cmeta">'+(s.sup1||'')+(s.sup2?' · '+s.sup2:'')+(s.coord?'<span style="color:var(--gray-300)"> · </span>'+s.coord:'')+'</div></div>'+
+        '<div class="cright">'+
+          '<span class="badge bgr">'+(s.ministerio||'')+'</span>'+
+          '<span style="font-size:11px;color:var(--gray-400);font-family:\'DM Mono\',monospace">'+s.gcs_cadastrados+' GC'+(s.gcs_cadastrados!==1?'s':'')+' c/ líder</span>'+
+          chev(sid)+
+        '</div>'+
+      '</div>'+
+      '<div class="card-body" id="body-'+sid+'">'+gcTable(s.gcs)+'</div>'+
+    '</div>';
+  });
+
+  document.getElementById('supList').innerHTML = html || empty();
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,2798 @@
+{
+  "stats": {
+    "coordenacoes": 8,
+    "supervisoes_cadastradas": 33,
+    "gcs_cadastrados": 35,
+    "membros": 282
+  },
+  "coords": [
+    {
+      "nome": "COORDENAÇÃO PASTORAL FLUIR",
+      "coord1": "GIULLIANO MESQUITA",
+      "coord2": "DEBORA MESQUITA",
+      "supervisoes": [
+        {
+          "nome": "Supervisão Maranata",
+          "ministerio": "Somos Um (Casais)",
+          "sup1": "THIAGO OLIVEIRA DE ARAUJO",
+          "sup2": "JEANE LIMA BANDEIRA DE ARAUJO",
+          "coord": "COORDENAÇÃO PASTORAL FLUIR",
+          "gcs": [
+            {
+              "nome": "GC POR AMOR A CRISTO",
+              "lider": "ROBERTO",
+              "lider2": "PATRÍCIA",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "GC NOVO DE NOVO",
+              "lider": "LEONARDO",
+              "lider2": "FABÍOLA",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "GC A PONTE",
+              "lider": "JEAN",
+              "lider2": "CRISTINA",
+              "lider_cadastrado": false,
+              "membros": 0
+            }
+          ],
+          "gcs_cadastrados": 0,
+          "total_gcs": 3
+        },
+        {
+          "nome": "Supervisão Kadosh",
+          "ministerio": "Somos Um (Casais)",
+          "sup1": "JORGE CLAUDIO ALVES RODRIGUES",
+          "sup2": "ICLEIA PARENTE RODRIGUES",
+          "coord": "COORDENAÇÃO PASTORAL FLUIR",
+          "gcs": [
+            {
+              "nome": "GC Kairós",
+              "lider": "Marcio",
+              "lider2": "Ana Flávia",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "GC Ruah",
+              "lider": "Alfredo",
+              "lider2": "Raquel",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "GC Aliançados",
+              "lider": "Everson",
+              "lider2": "Nahara",
+              "lider_cadastrado": false,
+              "membros": 2
+            }
+          ],
+          "gcs_cadastrados": 0,
+          "total_gcs": 3
+        },
+        {
+          "nome": "Supervisão Channah",
+          "ministerio": "Somos Um (Casais)",
+          "sup1": "Marcelo Barbosa Oliveira",
+          "sup2": "Yana e Vasconcelos Jeronimo Oliveira",
+          "coord": "COORDENAÇÃO PASTORAL FLUIR",
+          "gcs": [
+            {
+              "nome": "Alicerçados na Rocha",
+              "lider": "Alailson",
+              "lider2": "Allana",
+              "lider_cadastrado": false,
+              "membros": 1
+            },
+            {
+              "nome": "Ungido de Deus",
+              "lider": "Cleverton",
+              "lider2": "Gabriela",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Atos",
+              "lider": "David Roger",
+              "lider2": "Joana",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Pertencer",
+              "lider": "Ednaldo Freitas",
+              "lider2": "Kilvia Freitas",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Getsêmani",
+              "lider": "Paulo Roberto Oliveira",
+              "lider2": "Marcella Girão",
+              "lider_cadastrado": false,
+              "membros": 0
+            }
+          ],
+          "gcs_cadastrados": 0,
+          "total_gcs": 5
+        }
+      ]
+    },
+    {
+      "nome": "Holy",
+      "coord1": "Jéssica Helen Maia de Freitas",
+      "coord2": "Cristiano Savio Nunes Gomes",
+      "supervisoes": [
+        {
+          "nome": "Jardim de Deus",
+          "ministerio": "Somos Um (Casais)",
+          "sup1": "Jonathan Oliveira Coutinho",
+          "sup2": "Ruth Azevedo Gurgel Coutinho",
+          "coord": "Holy",
+          "gcs": [
+            {
+              "nome": "Perseverar",
+              "lider": "Helter",
+              "lider2": "Gessica",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Firmados em Cristo",
+              "lider": "Tomé",
+              "lider2": "Patricia",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Semear",
+              "lider": "Davi",
+              "lider2": "Lucivania",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Ágape",
+              "lider": "Wellington",
+              "lider2": "Luzildene",
+              "lider_cadastrado": false,
+              "membros": 1
+            }
+          ],
+          "gcs_cadastrados": 0,
+          "total_gcs": 4
+        }
+      ]
+    },
+    {
+      "nome": "Coordenação Ashrei",
+      "coord1": "João Aurélio Costa Paiva",
+      "coord2": "Kely Sales Borges Paiva",
+      "supervisoes": []
+    },
+    {
+      "nome": "Coordenação Adoração",
+      "coord1": "Stefania Maia de Sousa Cândido",
+      "coord2": "Jefferson Dantas Cândido",
+      "supervisoes": [
+        {
+          "nome": "Supervisão Rei dos reis",
+          "ministerio": "Somos Um (Casais)",
+          "sup1": "Ronaldo Araújo do Nascimento",
+          "sup2": "Ana Paula Bessa Araújo",
+          "coord": "Coordenação Adoração",
+          "gcs": [
+            {
+              "nome": "Gc Ebenézer",
+              "lider": "Valdenir",
+              "lider2": "Neuma",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Gc Fonte de Água Viva",
+              "lider": "Cysne Neto",
+              "lider2": "Livia Cavalcante",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Gc Obediência",
+              "lider": "Felipe",
+              "lider2": "Bárbara",
+              "lider_cadastrado": false,
+              "membros": 1
+            },
+            {
+              "nome": "Gc Palavra Viva",
+              "lider": "Carlos Henrique",
+              "lider2": "Livia Costa",
+              "lider_cadastrado": false,
+              "membros": 0
+            }
+          ],
+          "gcs_cadastrados": 0,
+          "total_gcs": 4
+        },
+        {
+          "nome": "Supervisão Enraizadas",
+          "ministerio": "Somos Um (Rede MC)",
+          "sup1": "Thiciany Noca Lira",
+          "sup2": "Xxxxxxx",
+          "coord": "Coordenação Adoração",
+          "gcs": [
+            {
+              "nome": "GC Bem Aventuradas",
+              "lider": "Silvana Moraes",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "GC Lamparinas",
+              "lider": "Juliana Vieira",
+              "lider2": "",
+              "lider_cadastrado": true,
+              "membros": 1
+            },
+            {
+              "nome": "GC Restauradas",
+              "lider": "Katia Bosford",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 2
+            },
+            {
+              "nome": "GC As Conquistadoras",
+              "lider": "Mazé Feitosa",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "As Bem-Aventuradas",
+              "lider": "Thiciany Noca",
+              "lider2": "",
+              "lider_cadastrado": true,
+              "membros": 1,
+              "inferido": true
+            }
+          ],
+          "gcs_cadastrados": 2,
+          "total_gcs": 5
+        }
+      ]
+    },
+    {
+      "nome": "Coordenacao uma só carne",
+      "coord1": "Paulo Gustavo de Lima",
+      "coord2": "Cintia Mendonça Bezerra Silva de Lima",
+      "supervisoes": [
+        {
+          "nome": "Florescer",
+          "ministerio": "Somos Um (Casais)",
+          "sup1": "Asle Souza costa de lima",
+          "sup2": "Wallisten Luiz Agostinho de Lima",
+          "coord": "Coordenacao uma só carne",
+          "gcs": [
+            {
+              "nome": "Gc Sara Nossa Terra",
+              "lider": "Isabel Brasil",
+              "lider2": "Édson Brasil",
+              "lider_cadastrado": false,
+              "membros": 2
+            },
+            {
+              "nome": "Gc Até que Ele Volte",
+              "lider": "Suianny Vieira",
+              "lider2": "Hillison Vieira",
+              "lider_cadastrado": false,
+              "membros": 1
+            },
+            {
+              "nome": "GC Celeiros Sul",
+              "lider": "Kelly Souza",
+              "lider2": "Deivis Souza",
+              "lider_cadastrado": false,
+              "membros": 0
+            }
+          ],
+          "gcs_cadastrados": 0,
+          "total_gcs": 3
+        },
+        {
+          "nome": "Até que Ele volte",
+          "ministerio": "Somos Um (Casais)",
+          "sup1": "Nathalia Tereza Marinho Matos de Azevedo Castro",
+          "sup2": "Gleiciano de Azevedo Castro",
+          "coord": "Coordenacao uma só carne",
+          "gcs": [
+            {
+              "nome": "Orvalho",
+              "lider": "Bia",
+              "lider2": "John",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Herdeiros da Promessa",
+              "lider": "Paula",
+              "lider2": "Zezinho",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Até que Ele Volte",
+              "lider": "Paula",
+              "lider2": "Diego",
+              "lider_cadastrado": false,
+              "membros": 0
+            }
+          ],
+          "gcs_cadastrados": 0,
+          "total_gcs": 3
+        }
+      ]
+    },
+    {
+      "nome": "Coordenação Oásis",
+      "coord1": "Luiz Junior Miranda Pinheiro",
+      "coord2": "Tereza Sonia de Souza Pinheiro",
+      "supervisoes": []
+    },
+    {
+      "nome": "Coordenação AVAHAH",
+      "coord1": "Natanael do Vale Carvalho Nogueira",
+      "coord2": "Alana Adler Rodrigues",
+      "supervisoes": [
+        {
+          "nome": "Supervisão Yahweh",
+          "ministerio": "Somos Um (Casais)",
+          "sup1": "Eveliny Maria Portela Castelo Branco",
+          "sup2": "Wagner Renato de Almeida Pinto",
+          "coord": "Coordenação AVAHAH",
+          "gcs": [],
+          "gcs_cadastrados": 0,
+          "total_gcs": 0
+        }
+      ]
+    },
+    {
+      "nome": "Coordenação Renew",
+      "coord1": "Nathalia Pereira Costa Monteiro",
+      "coord2": "Guilherme de Queiroz Monteiro",
+      "supervisoes": []
+    },
+    {
+      "nome": "Sem coordenação vinculada",
+      "coord1": "",
+      "coord2": "",
+      "supervisoes": [
+        {
+          "nome": "Supervisão Next Level",
+          "ministerio": "Somos Um (Casais)",
+          "sup1": "KAHLIL CESAR CAPIBARIBE BARRETO",
+          "sup2": "Suyanne Felix Lima Capibaribe",
+          "coord": "",
+          "gcs": [
+            {
+              "nome": "GC LEGADO",
+              "lider": "Celso",
+              "lider2": "Renata",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "GC RENOVO",
+              "lider": "Arlindo Aguiar",
+              "lider2": "Michele Aguiar",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "GC FLORESCER",
+              "lider": "Leandro Regueira",
+              "lider2": "Isabel Miguel",
+              "lider_cadastrado": false,
+              "membros": 0
+            }
+          ],
+          "gcs_cadastrados": 0,
+          "total_gcs": 3
+        },
+        {
+          "nome": "SUPERVISÃO INC",
+          "ministerio": "A13 Uni — 18 a 24 anos",
+          "sup1": "JOÃO VITOR DUARTE",
+          "sup2": "GISELLE ALENCAR",
+          "coord": "",
+          "gcs": [
+            {
+              "nome": "GC ZAYN",
+              "lider": "HENRIQUE LENNON",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "MEU GC",
+              "lider": "VINICIUS RISSI",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "GC CAMINHO",
+              "lider": "RODRIGO MAIA",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "GC EMUNAH",
+              "lider": "VITORIA FORTE",
+              "lider2": "",
+              "lider_cadastrado": true,
+              "membros": 2
+            },
+            {
+              "nome": "GC DISCIPULAS",
+              "lider": "GIOVANNA CONDE",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            }
+          ],
+          "gcs_cadastrados": 1,
+          "total_gcs": 5
+        },
+        {
+          "nome": "ALIANÇADOS",
+          "ministerio": "Somos Um (Casais)",
+          "sup1": "Carlos felipe Holanda de Oliveira",
+          "sup2": "Natália kessila Soares Holanda",
+          "coord": "",
+          "gcs": [
+            {
+              "nome": "FORTIFICAR",
+              "lider": "Thiago",
+              "lider2": "Brenda",
+              "lider_cadastrado": false,
+              "membros": 4
+            },
+            {
+              "nome": "Águas vivas",
+              "lider": "Robson",
+              "lider2": "Daniele",
+              "lider_cadastrado": false,
+              "membros": 4
+            },
+            {
+              "nome": "Diakonos",
+              "lider": "Saulo",
+              "lider2": "Jessika",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Boas novas",
+              "lider": "Jesse",
+              "lider2": "Vitória",
+              "lider_cadastrado": false,
+              "membros": 5
+            },
+            {
+              "nome": "Aliançados",
+              "lider": "Felipe",
+              "lider2": "Natália",
+              "lider_cadastrado": false,
+              "membros": 3
+            }
+          ],
+          "gcs_cadastrados": 0,
+          "total_gcs": 5
+        },
+        {
+          "nome": "Supervisão Echo",
+          "ministerio": "A13 Uni — 18 a 24 anos",
+          "sup1": "Felipe Pereira de Sousa",
+          "sup2": "Vitória Ingrid Monteiro Barros",
+          "coord": "",
+          "gcs": [
+            {
+              "nome": "Gc fire",
+              "lider": "Felipe Pereira",
+              "lider2": "",
+              "lider_cadastrado": true,
+              "membros": 0,
+              "inferido": true
+            }
+          ],
+          "gcs_cadastrados": 1,
+          "total_gcs": 1
+        },
+        {
+          "nome": "DANIELY CAVALCANTE DE Araujo",
+          "ministerio": "Somos Um (Casais)",
+          "sup1": "Daniely Cavalcante de Araújo",
+          "sup2": "Francisco Ricardo Vasconcelos",
+          "coord": "",
+          "gcs": [
+            {
+              "nome": "Prevalecer",
+              "lider": "Lucas",
+              "lider2": "Sara",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Jornada",
+              "lider": "Gilvaneide",
+              "lider2": "Roberto",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Adonai",
+              "lider": "Valdetario",
+              "lider2": "Annynha",
+              "lider_cadastrado": false,
+              "membros": 0
+            }
+          ],
+          "gcs_cadastrados": 0,
+          "total_gcs": 3
+        },
+        {
+          "nome": "SUPERVISÃO HERDEIROS",
+          "ministerio": "A13 School — 15 a 17 anos",
+          "sup1": "Pethrus Cordeiro",
+          "sup2": "Evelyn rios",
+          "coord": "",
+          "gcs": [
+            {
+              "nome": "Mártires",
+              "lider": "Enzo Mesquita",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Loyal",
+              "lider": "Marcos Vinícius",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Despertos",
+              "lider": "João Felipe",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Consoladas",
+              "lider": "Maria Clara",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Destinadas",
+              "lider": "Iara Luiza",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Escolhidas",
+              "lider": "Michelle Ellen",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            }
+          ],
+          "gcs_cadastrados": 0,
+          "total_gcs": 6
+        },
+        {
+          "nome": "Firmes",
+          "ministerio": "A13 Uni — 18 a 24 anos",
+          "sup1": "Gabriela de Lima Ferreira Simeão",
+          "sup2": "Felipe Rocha Pinheiro",
+          "coord": "",
+          "gcs": [
+            {
+              "nome": "Raboni",
+              "lider": "Debora Feitosa",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 2
+            },
+            {
+              "nome": "Convictas",
+              "lider": "Rosa Torres",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 3
+            },
+            {
+              "nome": "Virtuosas",
+              "lider": "Aprilia Rodrigues",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 2
+            },
+            {
+              "nome": "Almejadas",
+              "lider": "Dafne Pinheiro",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 6
+            },
+            {
+              "nome": "Inabaláveis",
+              "lider": "Beatriz Cavalcante",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Bloom",
+              "lider": "Joyce Calou",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Eleitos",
+              "lider": "Douglas Carvalho",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Revival",
+              "lider": "Filipe Pessoa",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 2
+            },
+            {
+              "nome": "Logos",
+              "lider": "Rogério Oliveira",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Raiz",
+              "lider": "Ruan Teles",
+              "lider2": "",
+              "lider_cadastrado": true,
+              "membros": 1
+            },
+            {
+              "nome": "Kairos",
+              "lider": "Felipe Pinheiro",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "A13 uni - Gc convictas",
+              "lider": "Felipe Pinheiro",
+              "lider2": "",
+              "lider_cadastrado": true,
+              "membros": 0,
+              "inferido": true
+            },
+            {
+              "nome": "GC Revival",
+              "lider": "Felipe Pinheiro",
+              "lider2": "",
+              "lider_cadastrado": true,
+              "membros": 0,
+              "inferido": true
+            }
+          ],
+          "gcs_cadastrados": 3,
+          "total_gcs": 13
+        },
+        {
+          "nome": "Supervisão salt",
+          "ministerio": "A13 Uni — 18 a 24 anos",
+          "sup1": "Felipe Martins Costa",
+          "sup2": "Jamille Pinto Sousa Araujo",
+          "coord": "",
+          "gcs": [
+            {
+              "nome": "Gc das Confiantes",
+              "lider": "Maria Eduarda Machado Frederico",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Gc Fortes",
+              "lider": "Mario Henrique Costa da Silva",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 1
+            },
+            {
+              "nome": "Gc Incensários",
+              "lider": "Gustavo Carvalho de Souza",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Gc Intercessoras",
+              "lider": "Maria Eduarda Neves Sampaio",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 7
+            },
+            {
+              "nome": "Gc Martir",
+              "lider": "Felipe Yander",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "GC Talmidin",
+              "lider": "Jean Victor Carneiro",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 1
+            },
+            {
+              "nome": "GC Talmidim",
+              "lider": "Felipe Martins",
+              "lider2": "",
+              "lider_cadastrado": true,
+              "membros": 3,
+              "inferido": true
+            },
+            {
+              "nome": "Fortes",
+              "lider": "Felipe Martins",
+              "lider2": "",
+              "lider_cadastrado": true,
+              "membros": 2,
+              "inferido": true
+            },
+            {
+              "nome": "GC Mártir",
+              "lider": "FELIPE MARTINS",
+              "lider2": "",
+              "lider_cadastrado": true,
+              "membros": 1,
+              "inferido": true
+            }
+          ],
+          "gcs_cadastrados": 3,
+          "total_gcs": 9
+        },
+        {
+          "nome": "Supervisão Light",
+          "ministerio": "A13 Uni — 18 a 24 anos",
+          "sup1": "Karla Raissa Barroso de Freitas Siebra",
+          "sup2": "Caio Fábio Siebra Pereira Camelo",
+          "coord": "",
+          "gcs": [
+            {
+              "nome": "GC Brilhantes",
+              "lider": "Maria Eduarda de Oliveira Bezerra Medeiros",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 2
+            },
+            {
+              "nome": "GC Awaken",
+              "lider": "Matheus Costa de Freitas",
+              "lider2": "",
+              "lider_cadastrado": true,
+              "membros": 0
+            },
+            {
+              "nome": "GC Lamparinas",
+              "lider": "Victor Miranda de Freitas",
+              "lider2": "",
+              "lider_cadastrado": true,
+              "membros": 1
+            },
+            {
+              "nome": "Matheus de Souza Gonçalves",
+              "lider": "Gc Essência",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Brilhantes",
+              "lider": "Karla Siebra",
+              "lider2": "",
+              "lider_cadastrado": true,
+              "membros": 1,
+              "inferido": true
+            },
+            {
+              "nome": "GC ESSÊNCIA",
+              "lider": "Caio Siebra",
+              "lider2": "",
+              "lider_cadastrado": true,
+              "membros": 1,
+              "inferido": true
+            }
+          ],
+          "gcs_cadastrados": 4,
+          "total_gcs": 6
+        },
+        {
+          "nome": "Supervisão DEEP",
+          "ministerio": "A13 Jr — 12 a 14 anos",
+          "sup1": "Têmis Coelho Carvalho",
+          "sup2": "Danilo Nojoza de Oliveira",
+          "coord": "",
+          "gcs": [
+            {
+              "nome": "GC LEGADO",
+              "lider": "João Victor Vicente Aquino",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "GC dos Dependentes",
+              "lider": "Antônio Henrique da Silva Nunes",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "GC Metanoia",
+              "lider": "Rian Raj Rodrigues Silva",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "GC das Exemplares",
+              "lider": "Ellen Freitas Andrade Florentino",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "GC das Radicais",
+              "lider": "Ester Fernandes da Costa",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "GC das Ensináveis",
+              "lider": "Lohane Mota Galdino Costa",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "GC das Santificadas",
+              "lider": "Yasmin Viana Saraiva Ramos",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            }
+          ],
+          "gcs_cadastrados": 0,
+          "total_gcs": 7
+        },
+        {
+          "nome": "Revayah",
+          "ministerio": "Somos Um (Casais)",
+          "sup1": "Renato Michel Matos Gomes",
+          "sup2": "Maria Janaína Linhares Coelho",
+          "coord": "",
+          "gcs": [
+            {
+              "nome": "Firmados",
+              "lider": "Saullo",
+              "lider2": "Gabrielle",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Ônica",
+              "lider": "Bruni",
+              "lider2": "Daniella",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Na Rocha",
+              "lider": "Jean",
+              "lider2": "Amanda",
+              "lider_cadastrado": false,
+              "membros": 0
+            }
+          ],
+          "gcs_cadastrados": 0,
+          "total_gcs": 3
+        },
+        {
+          "nome": "Supervisão Noah",
+          "ministerio": "Somos Um (Casais)",
+          "sup1": "Mayara Flexa",
+          "sup2": "Matheus Flexa",
+          "coord": "",
+          "gcs": [
+            {
+              "nome": "GC Efraim",
+              "lider": "Faby",
+              "lider2": "Daniel",
+              "lider_cadastrado": false,
+              "membros": 3
+            },
+            {
+              "nome": "GC Philos",
+              "lider": "Claudinha",
+              "lider2": "Guilherme",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "GC Revayah",
+              "lider": "Beatriz",
+              "lider2": "Yago",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "GC Hope",
+              "lider": "Mara",
+              "lider2": "Denisio",
+              "lider_cadastrado": false,
+              "membros": 1
+            }
+          ],
+          "gcs_cadastrados": 0,
+          "total_gcs": 4
+        },
+        {
+          "nome": "Supervisão  Atalaia",
+          "ministerio": "Somos Um (Casais)",
+          "sup1": "Francisco Gilson do Carmo Filho",
+          "sup2": "Daniele de Castro Vieira do Carmo",
+          "coord": "",
+          "gcs": [
+            {
+              "nome": "GC Atalaia",
+              "lider": "Gilson",
+              "lider2": "Dani",
+              "lider_cadastrado": false,
+              "membros": 0
+            }
+          ],
+          "gcs_cadastrados": 0,
+          "total_gcs": 1
+        },
+        {
+          "nome": "GC Shekinah",
+          "ministerio": "Somos Um (Casais)",
+          "sup1": "Ariel Silva Sousa",
+          "sup2": "Elane Lélis",
+          "coord": "",
+          "gcs": [],
+          "gcs_cadastrados": 0,
+          "total_gcs": 0
+        },
+        {
+          "nome": "Supervisão Suave",
+          "ministerio": "A13 School — 15 a 17 anos",
+          "sup1": "Maria eduarda",
+          "sup2": "kauan silva",
+          "coord": "",
+          "gcs": [
+            {
+              "nome": "Joias",
+              "lider": "jessica joelma",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Diligentes",
+              "lider": "Ingrid Aquino",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Moldados",
+              "lider": "Pedro Lucas",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Forasteiros",
+              "lider": "Paulo Eduardo",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Facilitadores",
+              "lider": "Lucas Araujo",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Destemidas",
+              "lider": "Gabrielly",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 1
+            }
+          ],
+          "gcs_cadastrados": 0,
+          "total_gcs": 6
+        },
+        {
+          "nome": "Supervisão Shekinah",
+          "ministerio": "Somos Um (Casais)",
+          "sup1": "Ariel Silva Sousa",
+          "sup2": "Elane Barros Lelis Silva",
+          "coord": "",
+          "gcs": [
+            {
+              "nome": "GC Shekinah",
+              "lider": "Ariel Silva",
+              "lider2": "Elane Lélis",
+              "lider_cadastrado": false,
+              "membros": 0
+            }
+          ],
+          "gcs_cadastrados": 0,
+          "total_gcs": 1
+        },
+        {
+          "nome": "Supervisão Oxigênio",
+          "ministerio": "Somos Um (Casais)",
+          "sup1": "Paulo Henrique Sales Filho",
+          "sup2": "Jéssica Rodrigues Carvalho Sales",
+          "coord": "",
+          "gcs": [
+            {
+              "nome": "GC Milagres",
+              "lider": "Cassio",
+              "lider2": "Valéria",
+              "lider_cadastrado": false,
+              "membros": 1
+            },
+            {
+              "nome": "GC Sal e Luz",
+              "lider": "Flavio",
+              "lider2": "Katy",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "GC Improváveis",
+              "lider": "David",
+              "lider2": "Laissy",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "GC Filadelfia",
+              "lider": "Rômulo",
+              "lider2": "Thais",
+              "lider_cadastrado": false,
+              "membros": 0
+            }
+          ],
+          "gcs_cadastrados": 0,
+          "total_gcs": 4
+        },
+        {
+          "nome": "Supervisão Abrigo",
+          "ministerio": "A13 School — 15 a 17 anos",
+          "sup1": "Letícia Almeida",
+          "sup2": "Miguel Bosford",
+          "coord": "",
+          "gcs": [
+            {
+              "nome": "Gc das Pérolas",
+              "lider": "Beatriz Souza",
+              "lider2": "",
+              "lider_cadastrado": true,
+              "membros": 2
+            },
+            {
+              "nome": "Gc das Iluminadas",
+              "lider": "Maria Júlia Matos",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Gc das Prudentes",
+              "lider": "Ana Luisa Candido",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Gc Filhas",
+              "lider": "Sofia Oliveira",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Gc dos Curados",
+              "lider": "Levi Bentes",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Gc Libertos",
+              "lider": "Ricardo Sousa",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            }
+          ],
+          "gcs_cadastrados": 1,
+          "total_gcs": 6
+        },
+        {
+          "nome": "Visão",
+          "ministerio": "Somos Um (Casais)",
+          "sup1": "José Helder Carvalho Bitu Júnior",
+          "sup2": "Tatiana Barrocas Alves Bitú",
+          "coord": "",
+          "gcs": [
+            {
+              "nome": "Shammah",
+              "lider": "Thaís Fiuza",
+              "lider2": "Aristides Pereira",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Vindima",
+              "lider": "Júlio César Gonçalves da Ponte",
+              "lider2": "Renata Teófilo de Souza",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Céu aberto",
+              "lider": "Cristiane Eleuterio Pinheiro",
+              "lider2": "Cláudio Regis Pinheiro",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Yeshua",
+              "lider": "Cláudio Rodrigues",
+              "lider2": "Norma Fiuza",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Adonai",
+              "lider": "Charly Coser",
+              "lider2": "Gustavo Coser",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Renascer",
+              "lider": "Matheus Vinícius Barbosa",
+              "lider2": "Julia Fiuza Barbosa",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Visão",
+              "lider": "Jorge Cunha",
+              "lider2": "Fernanda Morais",
+              "lider_cadastrado": false,
+              "membros": 0
+            }
+          ],
+          "gcs_cadastrados": 0,
+          "total_gcs": 7
+        },
+        {
+          "nome": "Supervisão Fortalecer",
+          "ministerio": "Somos Um (Casais)",
+          "sup1": "Carlos Eduardo Gomes de Carvalho",
+          "sup2": "Idemara Carla Pires Lourenço de Carvalho",
+          "coord": "",
+          "gcs": [],
+          "gcs_cadastrados": 0,
+          "total_gcs": 0
+        },
+        {
+          "nome": "Supervisão Um só Coração",
+          "ministerio": "Somos Um (Casais)",
+          "sup1": "Edisio de Oliveira Gomes",
+          "sup2": "Maria Viviane N Barbosa",
+          "coord": "",
+          "gcs": [
+            {
+              "nome": "GC Um Só Coração",
+              "lider": "Yasmin",
+              "lider2": "Diego",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "GC Um Só Coração",
+              "lider": "Emanoela",
+              "lider2": "Márcio",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "GC Um Só Coração",
+              "lider": "Giovana",
+              "lider2": "Isac",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "GC Um Só Coração",
+              "lider": "Nayara",
+              "lider2": "Demétrio",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "GC Um Só Coração",
+              "lider": "Luana",
+              "lider2": "Henrique",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "GC Um Só Coração",
+              "lider": "Raquel",
+              "lider2": "Miquéias",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "GC Um Só Coração",
+              "lider": "Natalia",
+              "lider2": "Leonardo",
+              "lider_cadastrado": false,
+              "membros": 0
+            }
+          ],
+          "gcs_cadastrados": 0,
+          "total_gcs": 7
+        },
+        {
+          "nome": "Supervisão Florescendo",
+          "ministerio": "Somos Um (Casais)",
+          "sup1": "Jônatas do Nascimento Lourenço",
+          "sup2": "Delienny Monte Pereira Lourenço",
+          "coord": "",
+          "gcs": [
+            {
+              "nome": "GC Abundantes",
+              "lider": "Breno Norberto Cavalcante",
+              "lider2": "FRANcilucia DIEB Norberto Cavalcante",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "GC Gratidão",
+              "lider": "Cláudio Frota",
+              "lider2": "Mirian Lima Freire Frota",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "GC Friends",
+              "lider": "Igor Rodrigues de Araújo",
+              "lider2": "Simone Azevedo de Oliveira",
+              "lider_cadastrado": false,
+              "membros": 0
+            }
+          ],
+          "gcs_cadastrados": 0,
+          "total_gcs": 3
+        },
+        {
+          "nome": "Jardim secreto",
+          "ministerio": "Inspire — 35+",
+          "sup1": "Deniza Andrade",
+          "sup2": "Não tem",
+          "coord": "",
+          "gcs": [
+            {
+              "nome": "Transbordar",
+              "lider": "Patrícia",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Recomeço",
+              "lider": "Lídia",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Aprisco",
+              "lider": "Jessica",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Helliat eloim",
+              "lider": "Elisana",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Conectadas em Cristo",
+              "lider": "Katia",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "GC RECOMEÇO",
+              "lider": "Deniza Andrade",
+              "lider2": "",
+              "lider_cadastrado": true,
+              "membros": 0,
+              "inferido": true
+            }
+          ],
+          "gcs_cadastrados": 1,
+          "total_gcs": 6
+        },
+        {
+          "nome": "Virtuosas",
+          "ministerio": "Somos Um (Rede MC)",
+          "sup1": "Francisca Valéria Silveira",
+          "sup2": "Francisca Valéria Silveira",
+          "coord": "",
+          "gcs": [
+            {
+              "nome": "Alfa",
+              "lider": "Maria Betânia Rabelo Leite",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Pérolas",
+              "lider": "Ana Greycy Do Vale Alves",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Conectadas",
+              "lider": "Liduina do Socorro de Lima Holanda",
+              "lider2": "",
+              "lider_cadastrado": false,
+              "membros": 0
+            },
+            {
+              "nome": "Gc Alfa",
+              "lider": "Francisca Valéria",
+              "lider2": "",
+              "lider_cadastrado": true,
+              "membros": 0,
+              "inferido": true
+            },
+            {
+              "nome": "GC PÉROLAS",
+              "lider": "Francisca Valéria Silveira",
+              "lider2": "",
+              "lider_cadastrado": true,
+              "membros": 1,
+              "inferido": true
+            }
+          ],
+          "gcs_cadastrados": 2,
+          "total_gcs": 5
+        }
+      ]
+    }
+  ],
+  "supervisoes": [
+    {
+      "nome": "Supervisão Next Level",
+      "ministerio": "Somos Um (Casais)",
+      "sup1": "KAHLIL CESAR CAPIBARIBE BARRETO",
+      "sup2": "Suyanne Felix Lima Capibaribe",
+      "coord": "",
+      "gcs": [
+        {
+          "nome": "GC LEGADO",
+          "lider": "Celso",
+          "lider2": "Renata",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "GC RENOVO",
+          "lider": "Arlindo Aguiar",
+          "lider2": "Michele Aguiar",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "GC FLORESCER",
+          "lider": "Leandro Regueira",
+          "lider2": "Isabel Miguel",
+          "lider_cadastrado": false,
+          "membros": 0
+        }
+      ],
+      "gcs_cadastrados": 0,
+      "total_gcs": 3
+    },
+    {
+      "nome": "SUPERVISÃO INC",
+      "ministerio": "A13 Uni — 18 a 24 anos",
+      "sup1": "JOÃO VITOR DUARTE",
+      "sup2": "GISELLE ALENCAR",
+      "coord": "",
+      "gcs": [
+        {
+          "nome": "GC ZAYN",
+          "lider": "HENRIQUE LENNON",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "MEU GC",
+          "lider": "VINICIUS RISSI",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "GC CAMINHO",
+          "lider": "RODRIGO MAIA",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "GC EMUNAH",
+          "lider": "VITORIA FORTE",
+          "lider2": "",
+          "lider_cadastrado": true,
+          "membros": 2
+        },
+        {
+          "nome": "GC DISCIPULAS",
+          "lider": "GIOVANNA CONDE",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        }
+      ],
+      "gcs_cadastrados": 1,
+      "total_gcs": 5
+    },
+    {
+      "nome": "ALIANÇADOS",
+      "ministerio": "Somos Um (Casais)",
+      "sup1": "Carlos felipe Holanda de Oliveira",
+      "sup2": "Natália kessila Soares Holanda",
+      "coord": "",
+      "gcs": [
+        {
+          "nome": "FORTIFICAR",
+          "lider": "Thiago",
+          "lider2": "Brenda",
+          "lider_cadastrado": false,
+          "membros": 4
+        },
+        {
+          "nome": "Águas vivas",
+          "lider": "Robson",
+          "lider2": "Daniele",
+          "lider_cadastrado": false,
+          "membros": 4
+        },
+        {
+          "nome": "Diakonos",
+          "lider": "Saulo",
+          "lider2": "Jessika",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Boas novas",
+          "lider": "Jesse",
+          "lider2": "Vitória",
+          "lider_cadastrado": false,
+          "membros": 5
+        },
+        {
+          "nome": "Aliançados",
+          "lider": "Felipe",
+          "lider2": "Natália",
+          "lider_cadastrado": false,
+          "membros": 3
+        }
+      ],
+      "gcs_cadastrados": 0,
+      "total_gcs": 5
+    },
+    {
+      "nome": "Supervisão Echo",
+      "ministerio": "A13 Uni — 18 a 24 anos",
+      "sup1": "Felipe Pereira de Sousa",
+      "sup2": "Vitória Ingrid Monteiro Barros",
+      "coord": "",
+      "gcs": [
+        {
+          "nome": "Gc fire",
+          "lider": "Felipe Pereira",
+          "lider2": "",
+          "lider_cadastrado": true,
+          "membros": 0,
+          "inferido": true
+        }
+      ],
+      "gcs_cadastrados": 1,
+      "total_gcs": 1
+    },
+    {
+      "nome": "DANIELY CAVALCANTE DE Araujo",
+      "ministerio": "Somos Um (Casais)",
+      "sup1": "Daniely Cavalcante de Araújo",
+      "sup2": "Francisco Ricardo Vasconcelos",
+      "coord": "",
+      "gcs": [
+        {
+          "nome": "Prevalecer",
+          "lider": "Lucas",
+          "lider2": "Sara",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Jornada",
+          "lider": "Gilvaneide",
+          "lider2": "Roberto",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Adonai",
+          "lider": "Valdetario",
+          "lider2": "Annynha",
+          "lider_cadastrado": false,
+          "membros": 0
+        }
+      ],
+      "gcs_cadastrados": 0,
+      "total_gcs": 3
+    },
+    {
+      "nome": "Supervisão Rei dos reis",
+      "ministerio": "Somos Um (Casais)",
+      "sup1": "Ronaldo Araújo do Nascimento",
+      "sup2": "Ana Paula Bessa Araújo",
+      "coord": "Coordenação Adoração",
+      "gcs": [
+        {
+          "nome": "Gc Ebenézer",
+          "lider": "Valdenir",
+          "lider2": "Neuma",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Gc Fonte de Água Viva",
+          "lider": "Cysne Neto",
+          "lider2": "Livia Cavalcante",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Gc Obediência",
+          "lider": "Felipe",
+          "lider2": "Bárbara",
+          "lider_cadastrado": false,
+          "membros": 1
+        },
+        {
+          "nome": "Gc Palavra Viva",
+          "lider": "Carlos Henrique",
+          "lider2": "Livia Costa",
+          "lider_cadastrado": false,
+          "membros": 0
+        }
+      ],
+      "gcs_cadastrados": 0,
+      "total_gcs": 4
+    },
+    {
+      "nome": "SUPERVISÃO HERDEIROS",
+      "ministerio": "A13 School — 15 a 17 anos",
+      "sup1": "Pethrus Cordeiro",
+      "sup2": "Evelyn rios",
+      "coord": "",
+      "gcs": [
+        {
+          "nome": "Mártires",
+          "lider": "Enzo Mesquita",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Loyal",
+          "lider": "Marcos Vinícius",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Despertos",
+          "lider": "João Felipe",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Consoladas",
+          "lider": "Maria Clara",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Destinadas",
+          "lider": "Iara Luiza",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Escolhidas",
+          "lider": "Michelle Ellen",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        }
+      ],
+      "gcs_cadastrados": 0,
+      "total_gcs": 6
+    },
+    {
+      "nome": "Firmes",
+      "ministerio": "A13 Uni — 18 a 24 anos",
+      "sup1": "Gabriela de Lima Ferreira Simeão",
+      "sup2": "Felipe Rocha Pinheiro",
+      "coord": "",
+      "gcs": [
+        {
+          "nome": "Raboni",
+          "lider": "Debora Feitosa",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 2
+        },
+        {
+          "nome": "Convictas",
+          "lider": "Rosa Torres",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 3
+        },
+        {
+          "nome": "Virtuosas",
+          "lider": "Aprilia Rodrigues",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 2
+        },
+        {
+          "nome": "Almejadas",
+          "lider": "Dafne Pinheiro",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 6
+        },
+        {
+          "nome": "Inabaláveis",
+          "lider": "Beatriz Cavalcante",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Bloom",
+          "lider": "Joyce Calou",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Eleitos",
+          "lider": "Douglas Carvalho",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Revival",
+          "lider": "Filipe Pessoa",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 2
+        },
+        {
+          "nome": "Logos",
+          "lider": "Rogério Oliveira",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Raiz",
+          "lider": "Ruan Teles",
+          "lider2": "",
+          "lider_cadastrado": true,
+          "membros": 1
+        },
+        {
+          "nome": "Kairos",
+          "lider": "Felipe Pinheiro",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "A13 uni - Gc convictas",
+          "lider": "Felipe Pinheiro",
+          "lider2": "",
+          "lider_cadastrado": true,
+          "membros": 0,
+          "inferido": true
+        },
+        {
+          "nome": "GC Revival",
+          "lider": "Felipe Pinheiro",
+          "lider2": "",
+          "lider_cadastrado": true,
+          "membros": 0,
+          "inferido": true
+        }
+      ],
+      "gcs_cadastrados": 3,
+      "total_gcs": 13
+    },
+    {
+      "nome": "Supervisão salt",
+      "ministerio": "A13 Uni — 18 a 24 anos",
+      "sup1": "Felipe Martins Costa",
+      "sup2": "Jamille Pinto Sousa Araujo",
+      "coord": "",
+      "gcs": [
+        {
+          "nome": "Gc das Confiantes",
+          "lider": "Maria Eduarda Machado Frederico",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Gc Fortes",
+          "lider": "Mario Henrique Costa da Silva",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 1
+        },
+        {
+          "nome": "Gc Incensários",
+          "lider": "Gustavo Carvalho de Souza",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Gc Intercessoras",
+          "lider": "Maria Eduarda Neves Sampaio",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 7
+        },
+        {
+          "nome": "Gc Martir",
+          "lider": "Felipe Yander",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "GC Talmidin",
+          "lider": "Jean Victor Carneiro",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 1
+        },
+        {
+          "nome": "GC Talmidim",
+          "lider": "Felipe Martins",
+          "lider2": "",
+          "lider_cadastrado": true,
+          "membros": 3,
+          "inferido": true
+        },
+        {
+          "nome": "Fortes",
+          "lider": "Felipe Martins",
+          "lider2": "",
+          "lider_cadastrado": true,
+          "membros": 2,
+          "inferido": true
+        },
+        {
+          "nome": "GC Mártir",
+          "lider": "FELIPE MARTINS",
+          "lider2": "",
+          "lider_cadastrado": true,
+          "membros": 1,
+          "inferido": true
+        }
+      ],
+      "gcs_cadastrados": 3,
+      "total_gcs": 9
+    },
+    {
+      "nome": "Supervisão Light",
+      "ministerio": "A13 Uni — 18 a 24 anos",
+      "sup1": "Karla Raissa Barroso de Freitas Siebra",
+      "sup2": "Caio Fábio Siebra Pereira Camelo",
+      "coord": "",
+      "gcs": [
+        {
+          "nome": "GC Brilhantes",
+          "lider": "Maria Eduarda de Oliveira Bezerra Medeiros",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 2
+        },
+        {
+          "nome": "GC Awaken",
+          "lider": "Matheus Costa de Freitas",
+          "lider2": "",
+          "lider_cadastrado": true,
+          "membros": 0
+        },
+        {
+          "nome": "GC Lamparinas",
+          "lider": "Victor Miranda de Freitas",
+          "lider2": "",
+          "lider_cadastrado": true,
+          "membros": 1
+        },
+        {
+          "nome": "Matheus de Souza Gonçalves",
+          "lider": "Gc Essência",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Brilhantes",
+          "lider": "Karla Siebra",
+          "lider2": "",
+          "lider_cadastrado": true,
+          "membros": 1,
+          "inferido": true
+        },
+        {
+          "nome": "GC ESSÊNCIA",
+          "lider": "Caio Siebra",
+          "lider2": "",
+          "lider_cadastrado": true,
+          "membros": 1,
+          "inferido": true
+        }
+      ],
+      "gcs_cadastrados": 4,
+      "total_gcs": 6
+    },
+    {
+      "nome": "Florescer",
+      "ministerio": "Somos Um (Casais)",
+      "sup1": "Asle Souza costa de lima",
+      "sup2": "Wallisten Luiz Agostinho de Lima",
+      "coord": "Coordenacao uma só carne",
+      "gcs": [
+        {
+          "nome": "Gc Sara Nossa Terra",
+          "lider": "Isabel Brasil",
+          "lider2": "Édson Brasil",
+          "lider_cadastrado": false,
+          "membros": 2
+        },
+        {
+          "nome": "Gc Até que Ele Volte",
+          "lider": "Suianny Vieira",
+          "lider2": "Hillison Vieira",
+          "lider_cadastrado": false,
+          "membros": 1
+        },
+        {
+          "nome": "GC Celeiros Sul",
+          "lider": "Kelly Souza",
+          "lider2": "Deivis Souza",
+          "lider_cadastrado": false,
+          "membros": 0
+        }
+      ],
+      "gcs_cadastrados": 0,
+      "total_gcs": 3
+    },
+    {
+      "nome": "Supervisão DEEP",
+      "ministerio": "A13 Jr — 12 a 14 anos",
+      "sup1": "Têmis Coelho Carvalho",
+      "sup2": "Danilo Nojoza de Oliveira",
+      "coord": "",
+      "gcs": [
+        {
+          "nome": "GC LEGADO",
+          "lider": "João Victor Vicente Aquino",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "GC dos Dependentes",
+          "lider": "Antônio Henrique da Silva Nunes",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "GC Metanoia",
+          "lider": "Rian Raj Rodrigues Silva",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "GC das Exemplares",
+          "lider": "Ellen Freitas Andrade Florentino",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "GC das Radicais",
+          "lider": "Ester Fernandes da Costa",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "GC das Ensináveis",
+          "lider": "Lohane Mota Galdino Costa",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "GC das Santificadas",
+          "lider": "Yasmin Viana Saraiva Ramos",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        }
+      ],
+      "gcs_cadastrados": 0,
+      "total_gcs": 7
+    },
+    {
+      "nome": "Revayah",
+      "ministerio": "Somos Um (Casais)",
+      "sup1": "Renato Michel Matos Gomes",
+      "sup2": "Maria Janaína Linhares Coelho",
+      "coord": "",
+      "gcs": [
+        {
+          "nome": "Firmados",
+          "lider": "Saullo",
+          "lider2": "Gabrielle",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Ônica",
+          "lider": "Bruni",
+          "lider2": "Daniella",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Na Rocha",
+          "lider": "Jean",
+          "lider2": "Amanda",
+          "lider_cadastrado": false,
+          "membros": 0
+        }
+      ],
+      "gcs_cadastrados": 0,
+      "total_gcs": 3
+    },
+    {
+      "nome": "Jardim de Deus",
+      "ministerio": "Somos Um (Casais)",
+      "sup1": "Jonathan Oliveira Coutinho",
+      "sup2": "Ruth Azevedo Gurgel Coutinho",
+      "coord": "Holy",
+      "gcs": [
+        {
+          "nome": "Perseverar",
+          "lider": "Helter",
+          "lider2": "Gessica",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Firmados em Cristo",
+          "lider": "Tomé",
+          "lider2": "Patricia",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Semear",
+          "lider": "Davi",
+          "lider2": "Lucivania",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Ágape",
+          "lider": "Wellington",
+          "lider2": "Luzildene",
+          "lider_cadastrado": false,
+          "membros": 1
+        }
+      ],
+      "gcs_cadastrados": 0,
+      "total_gcs": 4
+    },
+    {
+      "nome": "Supervisão Noah",
+      "ministerio": "Somos Um (Casais)",
+      "sup1": "Mayara Flexa",
+      "sup2": "Matheus Flexa",
+      "coord": "",
+      "gcs": [
+        {
+          "nome": "GC Efraim",
+          "lider": "Faby",
+          "lider2": "Daniel",
+          "lider_cadastrado": false,
+          "membros": 3
+        },
+        {
+          "nome": "GC Philos",
+          "lider": "Claudinha",
+          "lider2": "Guilherme",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "GC Revayah",
+          "lider": "Beatriz",
+          "lider2": "Yago",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "GC Hope",
+          "lider": "Mara",
+          "lider2": "Denisio",
+          "lider_cadastrado": false,
+          "membros": 1
+        }
+      ],
+      "gcs_cadastrados": 0,
+      "total_gcs": 4
+    },
+    {
+      "nome": "Supervisão Yahweh",
+      "ministerio": "Somos Um (Casais)",
+      "sup1": "Eveliny Maria Portela Castelo Branco",
+      "sup2": "Wagner Renato de Almeida Pinto",
+      "coord": "Coordenação AVAHAH",
+      "gcs": [],
+      "gcs_cadastrados": 0,
+      "total_gcs": 0
+    },
+    {
+      "nome": "Supervisão  Atalaia",
+      "ministerio": "Somos Um (Casais)",
+      "sup1": "Francisco Gilson do Carmo Filho",
+      "sup2": "Daniele de Castro Vieira do Carmo",
+      "coord": "",
+      "gcs": [
+        {
+          "nome": "GC Atalaia",
+          "lider": "Gilson",
+          "lider2": "Dani",
+          "lider_cadastrado": false,
+          "membros": 0
+        }
+      ],
+      "gcs_cadastrados": 0,
+      "total_gcs": 1
+    },
+    {
+      "nome": "GC Shekinah",
+      "ministerio": "Somos Um (Casais)",
+      "sup1": "Ariel Silva Sousa",
+      "sup2": "Elane Lélis",
+      "coord": "",
+      "gcs": [],
+      "gcs_cadastrados": 0,
+      "total_gcs": 0
+    },
+    {
+      "nome": "Supervisão Suave",
+      "ministerio": "A13 School — 15 a 17 anos",
+      "sup1": "Maria eduarda",
+      "sup2": "kauan silva",
+      "coord": "",
+      "gcs": [
+        {
+          "nome": "Joias",
+          "lider": "jessica joelma",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Diligentes",
+          "lider": "Ingrid Aquino",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Moldados",
+          "lider": "Pedro Lucas",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Forasteiros",
+          "lider": "Paulo Eduardo",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Facilitadores",
+          "lider": "Lucas Araujo",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Destemidas",
+          "lider": "Gabrielly",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 1
+        }
+      ],
+      "gcs_cadastrados": 0,
+      "total_gcs": 6
+    },
+    {
+      "nome": "Supervisão Shekinah",
+      "ministerio": "Somos Um (Casais)",
+      "sup1": "Ariel Silva Sousa",
+      "sup2": "Elane Barros Lelis Silva",
+      "coord": "",
+      "gcs": [
+        {
+          "nome": "GC Shekinah",
+          "lider": "Ariel Silva",
+          "lider2": "Elane Lélis",
+          "lider_cadastrado": false,
+          "membros": 0
+        }
+      ],
+      "gcs_cadastrados": 0,
+      "total_gcs": 1
+    },
+    {
+      "nome": "Supervisão Oxigênio",
+      "ministerio": "Somos Um (Casais)",
+      "sup1": "Paulo Henrique Sales Filho",
+      "sup2": "Jéssica Rodrigues Carvalho Sales",
+      "coord": "",
+      "gcs": [
+        {
+          "nome": "GC Milagres",
+          "lider": "Cassio",
+          "lider2": "Valéria",
+          "lider_cadastrado": false,
+          "membros": 1
+        },
+        {
+          "nome": "GC Sal e Luz",
+          "lider": "Flavio",
+          "lider2": "Katy",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "GC Improváveis",
+          "lider": "David",
+          "lider2": "Laissy",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "GC Filadelfia",
+          "lider": "Rômulo",
+          "lider2": "Thais",
+          "lider_cadastrado": false,
+          "membros": 0
+        }
+      ],
+      "gcs_cadastrados": 0,
+      "total_gcs": 4
+    },
+    {
+      "nome": "Supervisão Enraizadas",
+      "ministerio": "Somos Um (Rede MC)",
+      "sup1": "Thiciany Noca Lira",
+      "sup2": "Xxxxxxx",
+      "coord": "Coordenação Adoração",
+      "gcs": [
+        {
+          "nome": "GC Bem Aventuradas",
+          "lider": "Silvana Moraes",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "GC Lamparinas",
+          "lider": "Juliana Vieira",
+          "lider2": "",
+          "lider_cadastrado": true,
+          "membros": 1
+        },
+        {
+          "nome": "GC Restauradas",
+          "lider": "Katia Bosford",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 2
+        },
+        {
+          "nome": "GC As Conquistadoras",
+          "lider": "Mazé Feitosa",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "As Bem-Aventuradas",
+          "lider": "Thiciany Noca",
+          "lider2": "",
+          "lider_cadastrado": true,
+          "membros": 1,
+          "inferido": true
+        }
+      ],
+      "gcs_cadastrados": 2,
+      "total_gcs": 5
+    },
+    {
+      "nome": "Supervisão Abrigo",
+      "ministerio": "A13 School — 15 a 17 anos",
+      "sup1": "Letícia Almeida",
+      "sup2": "Miguel Bosford",
+      "coord": "",
+      "gcs": [
+        {
+          "nome": "Gc das Pérolas",
+          "lider": "Beatriz Souza",
+          "lider2": "",
+          "lider_cadastrado": true,
+          "membros": 2
+        },
+        {
+          "nome": "Gc das Iluminadas",
+          "lider": "Maria Júlia Matos",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Gc das Prudentes",
+          "lider": "Ana Luisa Candido",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Gc Filhas",
+          "lider": "Sofia Oliveira",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Gc dos Curados",
+          "lider": "Levi Bentes",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Gc Libertos",
+          "lider": "Ricardo Sousa",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        }
+      ],
+      "gcs_cadastrados": 1,
+      "total_gcs": 6
+    },
+    {
+      "nome": "Visão",
+      "ministerio": "Somos Um (Casais)",
+      "sup1": "José Helder Carvalho Bitu Júnior",
+      "sup2": "Tatiana Barrocas Alves Bitú",
+      "coord": "",
+      "gcs": [
+        {
+          "nome": "Shammah",
+          "lider": "Thaís Fiuza",
+          "lider2": "Aristides Pereira",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Vindima",
+          "lider": "Júlio César Gonçalves da Ponte",
+          "lider2": "Renata Teófilo de Souza",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Céu aberto",
+          "lider": "Cristiane Eleuterio Pinheiro",
+          "lider2": "Cláudio Regis Pinheiro",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Yeshua",
+          "lider": "Cláudio Rodrigues",
+          "lider2": "Norma Fiuza",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Adonai",
+          "lider": "Charly Coser",
+          "lider2": "Gustavo Coser",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Renascer",
+          "lider": "Matheus Vinícius Barbosa",
+          "lider2": "Julia Fiuza Barbosa",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Visão",
+          "lider": "Jorge Cunha",
+          "lider2": "Fernanda Morais",
+          "lider_cadastrado": false,
+          "membros": 0
+        }
+      ],
+      "gcs_cadastrados": 0,
+      "total_gcs": 7
+    },
+    {
+      "nome": "Supervisão Fortalecer",
+      "ministerio": "Somos Um (Casais)",
+      "sup1": "Carlos Eduardo Gomes de Carvalho",
+      "sup2": "Idemara Carla Pires Lourenço de Carvalho",
+      "coord": "",
+      "gcs": [],
+      "gcs_cadastrados": 0,
+      "total_gcs": 0
+    },
+    {
+      "nome": "Supervisão Um só Coração",
+      "ministerio": "Somos Um (Casais)",
+      "sup1": "Edisio de Oliveira Gomes",
+      "sup2": "Maria Viviane N Barbosa",
+      "coord": "",
+      "gcs": [
+        {
+          "nome": "GC Um Só Coração",
+          "lider": "Yasmin",
+          "lider2": "Diego",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "GC Um Só Coração",
+          "lider": "Emanoela",
+          "lider2": "Márcio",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "GC Um Só Coração",
+          "lider": "Giovana",
+          "lider2": "Isac",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "GC Um Só Coração",
+          "lider": "Nayara",
+          "lider2": "Demétrio",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "GC Um Só Coração",
+          "lider": "Luana",
+          "lider2": "Henrique",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "GC Um Só Coração",
+          "lider": "Raquel",
+          "lider2": "Miquéias",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "GC Um Só Coração",
+          "lider": "Natalia",
+          "lider2": "Leonardo",
+          "lider_cadastrado": false,
+          "membros": 0
+        }
+      ],
+      "gcs_cadastrados": 0,
+      "total_gcs": 7
+    },
+    {
+      "nome": "Supervisão Florescendo",
+      "ministerio": "Somos Um (Casais)",
+      "sup1": "Jônatas do Nascimento Lourenço",
+      "sup2": "Delienny Monte Pereira Lourenço",
+      "coord": "",
+      "gcs": [
+        {
+          "nome": "GC Abundantes",
+          "lider": "Breno Norberto Cavalcante",
+          "lider2": "FRANcilucia DIEB Norberto Cavalcante",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "GC Gratidão",
+          "lider": "Cláudio Frota",
+          "lider2": "Mirian Lima Freire Frota",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "GC Friends",
+          "lider": "Igor Rodrigues de Araújo",
+          "lider2": "Simone Azevedo de Oliveira",
+          "lider_cadastrado": false,
+          "membros": 0
+        }
+      ],
+      "gcs_cadastrados": 0,
+      "total_gcs": 3
+    },
+    {
+      "nome": "Até que Ele volte",
+      "ministerio": "Somos Um (Casais)",
+      "sup1": "Nathalia Tereza Marinho Matos de Azevedo Castro",
+      "sup2": "Gleiciano de Azevedo Castro",
+      "coord": "Coordenacao uma só carne",
+      "gcs": [
+        {
+          "nome": "Orvalho",
+          "lider": "Bia",
+          "lider2": "John",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Herdeiros da Promessa",
+          "lider": "Paula",
+          "lider2": "Zezinho",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Até que Ele Volte",
+          "lider": "Paula",
+          "lider2": "Diego",
+          "lider_cadastrado": false,
+          "membros": 0
+        }
+      ],
+      "gcs_cadastrados": 0,
+      "total_gcs": 3
+    },
+    {
+      "nome": "Jardim secreto",
+      "ministerio": "Inspire — 35+",
+      "sup1": "Deniza Andrade",
+      "sup2": "Não tem",
+      "coord": "",
+      "gcs": [
+        {
+          "nome": "Transbordar",
+          "lider": "Patrícia",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Recomeço",
+          "lider": "Lídia",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Aprisco",
+          "lider": "Jessica",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Helliat eloim",
+          "lider": "Elisana",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Conectadas em Cristo",
+          "lider": "Katia",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "GC RECOMEÇO",
+          "lider": "Deniza Andrade",
+          "lider2": "",
+          "lider_cadastrado": true,
+          "membros": 0,
+          "inferido": true
+        }
+      ],
+      "gcs_cadastrados": 1,
+      "total_gcs": 6
+    },
+    {
+      "nome": "Supervisão Maranata",
+      "ministerio": "Somos Um (Casais)",
+      "sup1": "THIAGO OLIVEIRA DE ARAUJO",
+      "sup2": "JEANE LIMA BANDEIRA DE ARAUJO",
+      "coord": "COORDENAÇÃO PASTORAL FLUIR",
+      "gcs": [
+        {
+          "nome": "GC POR AMOR A CRISTO",
+          "lider": "ROBERTO",
+          "lider2": "PATRÍCIA",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "GC NOVO DE NOVO",
+          "lider": "LEONARDO",
+          "lider2": "FABÍOLA",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "GC A PONTE",
+          "lider": "JEAN",
+          "lider2": "CRISTINA",
+          "lider_cadastrado": false,
+          "membros": 0
+        }
+      ],
+      "gcs_cadastrados": 0,
+      "total_gcs": 3
+    },
+    {
+      "nome": "Supervisão Kadosh",
+      "ministerio": "Somos Um (Casais)",
+      "sup1": "JORGE CLAUDIO ALVES RODRIGUES",
+      "sup2": "ICLEIA PARENTE RODRIGUES",
+      "coord": "COORDENAÇÃO PASTORAL FLUIR",
+      "gcs": [
+        {
+          "nome": "GC Kairós",
+          "lider": "Marcio",
+          "lider2": "Ana Flávia",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "GC Ruah",
+          "lider": "Alfredo",
+          "lider2": "Raquel",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "GC Aliançados",
+          "lider": "Everson",
+          "lider2": "Nahara",
+          "lider_cadastrado": false,
+          "membros": 2
+        }
+      ],
+      "gcs_cadastrados": 0,
+      "total_gcs": 3
+    },
+    {
+      "nome": "Supervisão Channah",
+      "ministerio": "Somos Um (Casais)",
+      "sup1": "Marcelo Barbosa Oliveira",
+      "sup2": "Yana e Vasconcelos Jeronimo Oliveira",
+      "coord": "COORDENAÇÃO PASTORAL FLUIR",
+      "gcs": [
+        {
+          "nome": "Alicerçados na Rocha",
+          "lider": "Alailson",
+          "lider2": "Allana",
+          "lider_cadastrado": false,
+          "membros": 1
+        },
+        {
+          "nome": "Ungido de Deus",
+          "lider": "Cleverton",
+          "lider2": "Gabriela",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Atos",
+          "lider": "David Roger",
+          "lider2": "Joana",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Pertencer",
+          "lider": "Ednaldo Freitas",
+          "lider2": "Kilvia Freitas",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Getsêmani",
+          "lider": "Paulo Roberto Oliveira",
+          "lider2": "Marcella Girão",
+          "lider_cadastrado": false,
+          "membros": 0
+        }
+      ],
+      "gcs_cadastrados": 0,
+      "total_gcs": 5
+    },
+    {
+      "nome": "Virtuosas",
+      "ministerio": "Somos Um (Rede MC)",
+      "sup1": "Francisca Valéria Silveira",
+      "sup2": "Francisca Valéria Silveira",
+      "coord": "",
+      "gcs": [
+        {
+          "nome": "Alfa",
+          "lider": "Maria Betânia Rabelo Leite",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Pérolas",
+          "lider": "Ana Greycy Do Vale Alves",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Conectadas",
+          "lider": "Liduina do Socorro de Lima Holanda",
+          "lider2": "",
+          "lider_cadastrado": false,
+          "membros": 0
+        },
+        {
+          "nome": "Gc Alfa",
+          "lider": "Francisca Valéria",
+          "lider2": "",
+          "lider_cadastrado": true,
+          "membros": 0,
+          "inferido": true
+        },
+        {
+          "nome": "GC PÉROLAS",
+          "lider": "Francisca Valéria Silveira",
+          "lider2": "",
+          "lider_cadastrado": true,
+          "membros": 1,
+          "inferido": true
+        }
+      ],
+      "gcs_cadastrados": 2,
+      "total_gcs": 5
+    }
+  ],
+  "ministerios": [
+    "A13 Jr — 12 a 14 anos",
+    "A13 School — 15 a 17 anos",
+    "A13 Uni — 18 a 24 anos",
+    "Inspire — 35+",
+    "Somos Um (Casais)",
+    "Somos Um (Rede MC)"
+  ]
+}
