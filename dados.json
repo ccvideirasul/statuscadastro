@@ -3,8 +3,361 @@
     "coordenacoes": 8,
     "supervisoes_cadastradas": 33,
     "gcs_cadastrados": 21,
-    "membros": 306
+    "membros": 306,
+    "membros_sem_gc": 70
   },
+  "membros_sem_gc": [
+    {
+      "nome": "Danielle Mesquita",
+      "gc": "Restituir",
+      "min": "Inspire — 35+"
+    },
+    {
+      "nome": "Lucas Rafael Gomes de Sousa",
+      "gc": "GC Renovados",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Maria Lais Martins Vasconcelos",
+      "gc": "Gc Erguidas",
+      "min": "A13 Jr — 12 a 14 anos"
+    },
+    {
+      "nome": "Agnes Machado Silva",
+      "gc": "Gc Restituir",
+      "min": "Inspire — 35+"
+    },
+    {
+      "nome": "Thamires Silva da costa",
+      "gc": "CCvideira Sul",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Aprilia Aparecida Rodrigues da Silva",
+      "gc": "GC Virtuosas - Proximidades da igreja nas sextas",
+      "min": "A13 Uni — 18 a 24 anos"
+    },
+    {
+      "nome": "Ester Domiciano",
+      "gc": "A13 School - Gc das Unificadas",
+      "min": "A13 School — 15 a 17 anos"
+    },
+    {
+      "nome": "Marielcia Duarte Feitosa",
+      "gc": "GC Ágape Online",
+      "min": "Inspire — 35+"
+    },
+    {
+      "nome": "Silviane Sousa Alves dourado",
+      "gc": "Zion, Maraponga, terça",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Karyna lima costa",
+      "gc": "Restituir",
+      "min": "Inspire — 35+"
+    },
+    {
+      "nome": "Fernanda Ellen Lima Queiroz",
+      "gc": "Virtuosas, sexta 19h30",
+      "min": "A13 Uni — 18 a 24 anos"
+    },
+    {
+      "nome": "Mariana Tiago de Sousa",
+      "gc": "Olivas - proximo a igreja cc videira sul - Sextas",
+      "min": "Vert — 25 a 34 anos"
+    },
+    {
+      "nome": "Luiz bernardo Araújo dos santos",
+      "gc": "Gc Noble sabado",
+      "min": "A13 Jr — 12 a 14 anos"
+    },
+    {
+      "nome": "GISELLY EMILY ALVES CAMPELO",
+      "gc": "Não tenho GC",
+      "min": "A13 Uni — 18 a 24 anos"
+    },
+    {
+      "nome": "Daniele Tavares",
+      "gc": "Gc emet 13sul",
+      "min": "A13 Jr — 12 a 14 anos"
+    },
+    {
+      "nome": "Jéssica Pinheiro Leite",
+      "gc": "GC Morada",
+      "min": "A13 Uni — 18 a 24 anos"
+    },
+    {
+      "nome": "EVELYN SILVA DE SOUZA",
+      "gc": "Morada",
+      "min": "A13 Uni — 18 a 24 anos"
+    },
+    {
+      "nome": "Niedjia cunha costa",
+      "gc": "Jeová Rafah -Sul- Sabado",
+      "min": "Inspire — 35+"
+    },
+    {
+      "nome": "Maria Alice de Oliveira Nobre",
+      "gc": "Gc Morada",
+      "min": "A13 Uni — 18 a 24 anos"
+    },
+    {
+      "nome": "Charles Ramos Dos Anjos",
+      "gc": "Gratidão/ Maraponga-Sexta",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Ana Raquel Gonçalves Rodrigues",
+      "gc": "Gc Revayah - Messejana Sexta",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Luisa Lopes",
+      "gc": "Gc Morada",
+      "min": "A13 Uni — 18 a 24 anos"
+    },
+    {
+      "nome": "Breno de Pinho Landim",
+      "gc": "GC Zion",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Tatiana dos Santos",
+      "gc": "Ramos da videira",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "JULIA LEITAO RODRIGUES",
+      "gc": "Um novo tempo - passaré terça",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Sabrina glicia Alencar dos santos",
+      "gc": "Restituir",
+      "min": "Inspire — 35+"
+    },
+    {
+      "nome": "Karen Ferreira Fernandes",
+      "gc": "GC Morada",
+      "min": "A13 Uni — 18 a 24 anos"
+    },
+    {
+      "nome": "Tatiana Silva Araújo Xavier",
+      "gc": "Ramos da videira",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Lenilson Araujo da Silva",
+      "gc": "Ramos da videira",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Julia Ferreira Lima",
+      "gc": "Um Novo tempo",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Julia Alves de Araújo Lima",
+      "gc": "Erguidas",
+      "min": "A13 Jr — 12 a 14 anos"
+    },
+    {
+      "nome": "Mariana Lopes",
+      "gc": "Um novo tempo",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Antonieta Vieira de Assunção",
+      "gc": "Celeiros",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Gabrielle Cavalcante",
+      "gc": "Olives",
+      "min": "A13 Uni — 18 a 24 anos"
+    },
+    {
+      "nome": "Paula Mamede Moreira Morais",
+      "gc": "Um novo tempo",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Priscila Carneiro Pereira",
+      "gc": "GC Celeiros - Messejana (Terça)",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Tatiane Costa Sousa Vieira",
+      "gc": "Florescer- Terça - Guararapes",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Lara Menezes Nunes",
+      "gc": "Erguidas",
+      "min": "A13 Jr — 12 a 14 anos"
+    },
+    {
+      "nome": "Lidiane Cruz",
+      "gc": "RESTITUIR",
+      "min": "Inspire — 35+"
+    },
+    {
+      "nome": "Maria Rizomar Moreira da Silva",
+      "gc": "GC Bálsamo",
+      "min": "Vert — 25 a 34 anos"
+    },
+    {
+      "nome": "Tuani marinho Cavalcante",
+      "gc": "Gc celeiros",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Fabiana pereira de Araújo",
+      "gc": "Restituir",
+      "min": "Inspire — 35+"
+    },
+    {
+      "nome": "Virgilio de Castro Silva",
+      "gc": "Celeiros",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Mariana Emanuele Costa Paulino",
+      "gc": "Restituir",
+      "min": "Inspire — 35+"
+    },
+    {
+      "nome": "Emanuelle Castro da Silva",
+      "gc": "Restituir",
+      "min": "Inspire — 35+"
+    },
+    {
+      "nome": "Letícia Pinheiro Leite",
+      "gc": "Morada",
+      "min": "A13 Uni — 18 a 24 anos"
+    },
+    {
+      "nome": "Jairlândia Silva Santos",
+      "gc": "GC Zoe",
+      "min": "Inspire — 35+"
+    },
+    {
+      "nome": "Andrea Karoline do Carmo Lima",
+      "gc": "GC Zoe - Ccvideira Sul",
+      "min": "Inspire — 35+"
+    },
+    {
+      "nome": "Ocirema da costa Moraes",
+      "gc": "Zoe",
+      "min": "Inspire — 35+"
+    },
+    {
+      "nome": "Paloma Francelino Tamiarana",
+      "gc": "Filhos da promessa",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Maria Tauane dos Santos Silva",
+      "gc": "Até que ele volte - Lagoa Redonda |  Terças",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Patrícia Braz",
+      "gc": "Filhos da promessa",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "FRANCISCA VANESSA FEITOSA DE SOUSA",
+      "gc": "Filhos da promessa",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Evilene Lima de melo",
+      "gc": "Filhos da promessa",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Felipe Silva",
+      "gc": "GC Fortes - Sexta feira",
+      "min": "A13 Uni — 18 a 24 anos"
+    },
+    {
+      "nome": "RICARDO DIAS MACEDO",
+      "gc": "Purê - Eusebio - Terça",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "João Pedro De Menezes Alencar",
+      "gc": "GC Fortes- A13 Uni Videira Sul",
+      "min": "A13 Uni — 18 a 24 anos"
+    },
+    {
+      "nome": "Gerlandia Cunha dos Santos",
+      "gc": "Boas novas - Messejana segunda",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Marcelo da Luz moreira",
+      "gc": "Somos um ccvideira sul",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Rosemar Alves de Sousa",
+      "gc": "Somos um - Filhos da Promessa",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Josielle Rodrigues Falcão",
+      "gc": "GC Milagres (Somos Um - Passaré Sexta)",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Jamile Mayra Ribeiro da silva morais",
+      "gc": "SOMOS UM - GC EFRAIM",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Thaina Cirino Ribeiro",
+      "gc": "Gc boas novas - segundas à noite",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Francisco Aurélio da Silva Júnior",
+      "gc": "GC Milagres- Passaré Sexta",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "ALFREDO WARLEY BARRETO FERREIRA",
+      "gc": "Um Novo tempo",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "EMILIANO MARIANO RODRIGUES",
+      "gc": "GC UM NOVO TEMPO",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Luan Lucas",
+      "gc": "Novo templo - terça",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Darlene Lopes Ferreira",
+      "gc": "Philos - Cajazeiras sexta",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Oesclei da Silva",
+      "gc": "GC RAMOS",
+      "min": "Somos Um (Casais)"
+    },
+    {
+      "nome": "Na",
+      "gc": "Ramos",
+      "min": "Somos Um (Casais)"
+    }
+  ],
   "coords": [
     {
       "nome": "COORDENAÇÃO PASTORAL FLUIR",
@@ -44,7 +397,7 @@
               "lider": "VITORIA FORTE",
               "lider2": "",
               "lider_cadastrado": true,
-              "membros": 18,
+              "membros": 9,
               "gc_nome_cadastrado": "GC EMUNAH"
             },
             {
@@ -52,7 +405,7 @@
               "lider": "GIOVANNA CONDE",
               "lider2": "",
               "lider_cadastrado": false,
-              "membros": 12
+              "membros": 6
             }
           ],
           "gcs_cadastrados": 1,
@@ -70,35 +423,35 @@
               "lider": "Thiago",
               "lider2": "Brenda",
               "lider_cadastrado": false,
-              "membros": 22
+              "membros": 11
             },
             {
               "nome": "Águas vivas",
               "lider": "Robson",
               "lider2": "Daniele",
               "lider_cadastrado": false,
-              "membros": 12
+              "membros": 6
             },
             {
               "nome": "Diakonos",
               "lider": "Saulo",
               "lider2": "Jessika",
               "lider_cadastrado": false,
-              "membros": 14
+              "membros": 7
             },
             {
               "nome": "Boas novas",
               "lider": "Jesse",
               "lider2": "Vitória",
               "lider_cadastrado": false,
-              "membros": 12
+              "membros": 6
             },
             {
               "nome": "Aliançados",
               "lider": "Felipe",
               "lider2": "Natália",
               "lider_cadastrado": false,
-              "membros": 14
+              "membros": 7
             }
           ],
           "gcs_cadastrados": 0,
@@ -135,7 +488,7 @@
               "lider": "Maria Eduarda Machado Frederico",
               "lider2": "",
               "lider_cadastrado": false,
-              "membros": 6
+              "membros": 3
             },
             {
               "nome": "Gc Fortes",
@@ -150,14 +503,14 @@
               "lider": "Gustavo Carvalho de Souza",
               "lider2": "",
               "lider_cadastrado": false,
-              "membros": 2
+              "membros": 1
             },
             {
               "nome": "Gc Intercessoras",
               "lider": "Maria Eduarda Neves Sampaio",
               "lider2": "",
               "lider_cadastrado": false,
-              "membros": 30
+              "membros": 15
             },
             {
               "nome": "Gc Martir",
@@ -198,7 +551,7 @@
               "lider": "Beatriz Souza",
               "lider2": "",
               "lider_cadastrado": true,
-              "membros": 8,
+              "membros": 4,
               "gc_nome_cadastrado": "Gc das Pérolas"
             },
             {
@@ -291,14 +644,14 @@
               "lider": "Alfredo",
               "lider2": "Raquel",
               "lider_cadastrado": false,
-              "membros": 2
+              "membros": 1
             },
             {
               "nome": "GC Aliançados",
               "lider": "Everson",
               "lider2": "Nahara",
               "lider_cadastrado": false,
-              "membros": 4
+              "membros": 2
             }
           ],
           "gcs_cadastrados": 0,
@@ -316,7 +669,7 @@
               "lider": "Alailson",
               "lider2": "Allana",
               "lider_cadastrado": false,
-              "membros": 2
+              "membros": 1
             },
             {
               "nome": "Ungido de Deus",
@@ -422,7 +775,7 @@
               "lider": "Wellington",
               "lider2": "Luzildene",
               "lider_cadastrado": false,
-              "membros": 2
+              "membros": 1
             }
           ],
           "gcs_cadastrados": 0,
@@ -440,14 +793,14 @@
               "lider": "Faby",
               "lider2": "Daniel",
               "lider_cadastrado": false,
-              "membros": 20
+              "membros": 10
             },
             {
               "nome": "GC Philos",
               "lider": "Claudinha",
               "lider2": "Guilherme",
               "lider_cadastrado": false,
-              "membros": 8
+              "membros": 4
             },
             {
               "nome": "GC Revayah",
@@ -461,7 +814,7 @@
               "lider": "Mara",
               "lider2": "Denisio",
               "lider_cadastrado": false,
-              "membros": 4
+              "membros": 2
             }
           ],
           "gcs_cadastrados": 0,
@@ -479,7 +832,7 @@
               "lider": "Cassio",
               "lider2": "Valéria",
               "lider_cadastrado": false,
-              "membros": 6
+              "membros": 3
             },
             {
               "nome": "GC Sal e Luz",
@@ -500,7 +853,7 @@
               "lider": "Rômulo",
               "lider2": "Thais",
               "lider_cadastrado": false,
-              "membros": 2
+              "membros": 1
             }
           ],
           "gcs_cadastrados": 0,
@@ -557,7 +910,7 @@
               "lider": "Maria Eduarda de Oliveira Bezerra Medeiros",
               "lider2": "",
               "lider_cadastrado": true,
-              "membros": 4,
+              "membros": 2,
               "gc_nome_cadastrado": "Brilhantes"
             },
             {
@@ -573,7 +926,7 @@
               "lider": "Victor Miranda de Freitas",
               "lider2": "",
               "lider_cadastrado": true,
-              "membros": 2,
+              "membros": 1,
               "gc_nome_cadastrado": "GC Lamparinas"
             },
             {
@@ -599,7 +952,7 @@
               "lider": "jessica joelma",
               "lider2": "",
               "lider_cadastrado": false,
-              "membros": 2
+              "membros": 1
             },
             {
               "nome": "Diligentes",
@@ -635,7 +988,7 @@
               "lider": "Gabrielly",
               "lider2": "",
               "lider_cadastrado": false,
-              "membros": 2
+              "membros": 1
             }
           ],
           "gcs_cadastrados": 1,
@@ -720,28 +1073,28 @@
               "lider": "Valdenir",
               "lider2": "Neuma",
               "lider_cadastrado": false,
-              "membros": 8
+              "membros": 4
             },
             {
               "nome": "Gc Fonte de Água Viva",
               "lider": "Cysne Neto",
               "lider2": "Livia Cavalcante",
               "lider_cadastrado": false,
-              "membros": 4
+              "membros": 2
             },
             {
               "nome": "Gc Obediência",
               "lider": "Felipe",
               "lider2": "Bárbara",
               "lider_cadastrado": false,
-              "membros": 4
+              "membros": 2
             },
             {
               "nome": "Gc Palavra Viva",
               "lider": "Carlos Henrique",
               "lider2": "Livia Costa",
               "lider_cadastrado": false,
-              "membros": 4
+              "membros": 2
             }
           ],
           "gcs_cadastrados": 0,
@@ -767,7 +1120,7 @@
               "lider": "Juliana Vieira",
               "lider2": "",
               "lider_cadastrado": true,
-              "membros": 2,
+              "membros": 1,
               "gc_nome_cadastrado": "GC Lamparinas"
             },
             {
@@ -775,7 +1128,7 @@
               "lider": "Katia Bosford",
               "lider2": "",
               "lider_cadastrado": false,
-              "membros": 8
+              "membros": 4
             },
             {
               "nome": "GC As Conquistadoras",
@@ -842,21 +1195,21 @@
               "lider": "Isabel Brasil",
               "lider2": "Édson Brasil",
               "lider_cadastrado": false,
-              "membros": 18
+              "membros": 9
             },
             {
               "nome": "Gc Até que Ele Volte",
               "lider": "Suianny Vieira",
               "lider2": "Hillison Vieira",
               "lider_cadastrado": false,
-              "membros": 4
+              "membros": 2
             },
             {
               "nome": "GC Celeiros Sul",
               "lider": "Kelly Souza",
               "lider2": "Deivis Souza",
               "lider_cadastrado": false,
-              "membros": 8
+              "membros": 4
             }
           ],
           "gcs_cadastrados": 0,
@@ -888,7 +1241,7 @@
               "lider": "Paula",
               "lider2": "Diego",
               "lider_cadastrado": false,
-              "membros": 2
+              "membros": 1
             }
           ],
           "gcs_cadastrados": 0,
@@ -913,14 +1266,14 @@
               "lider": "Debora Feitosa",
               "lider2": "",
               "lider_cadastrado": false,
-              "membros": 10
+              "membros": 5
             },
             {
               "nome": "Convictas",
               "lider": "Rosa Torres",
               "lider2": "",
               "lider_cadastrado": true,
-              "membros": 10,
+              "membros": 0,
               "gc_nome_cadastrado": "A13 uni - Gc convictas"
             },
             {
@@ -928,14 +1281,14 @@
               "lider": "Aprilia Rodrigues",
               "lider2": "",
               "lider_cadastrado": false,
-              "membros": 8
+              "membros": 4
             },
             {
               "nome": "Almejadas",
               "lider": "Dafne Pinheiro",
               "lider2": "",
               "lider_cadastrado": false,
-              "membros": 26
+              "membros": 13
             },
             {
               "nome": "Inabaláveis",
@@ -964,7 +1317,7 @@
               "lider": "Filipe Pessoa",
               "lider2": "",
               "lider_cadastrado": true,
-              "membros": 4,
+              "membros": 3,
               "gc_nome_cadastrado": "GC Revival"
             },
             {
@@ -979,7 +1332,7 @@
               "lider": "Ruan Teles",
               "lider2": "",
               "lider_cadastrado": true,
-              "membros": 4,
+              "membros": 2,
               "gc_nome_cadastrado": "Raiz"
             },
             {
@@ -1463,7 +1816,7 @@
           "lider": "VITORIA FORTE",
           "lider2": "",
           "lider_cadastrado": true,
-          "membros": 18,
+          "membros": 9,
           "gc_nome_cadastrado": "GC EMUNAH"
         },
         {
@@ -1471,7 +1824,7 @@
           "lider": "GIOVANNA CONDE",
           "lider2": "",
           "lider_cadastrado": false,
-          "membros": 12
+          "membros": 6
         }
       ],
       "gcs_cadastrados": 1,
@@ -1489,35 +1842,35 @@
           "lider": "Thiago",
           "lider2": "Brenda",
           "lider_cadastrado": false,
-          "membros": 22
+          "membros": 11
         },
         {
           "nome": "Águas vivas",
           "lider": "Robson",
           "lider2": "Daniele",
           "lider_cadastrado": false,
-          "membros": 12
+          "membros": 6
         },
         {
           "nome": "Diakonos",
           "lider": "Saulo",
           "lider2": "Jessika",
           "lider_cadastrado": false,
-          "membros": 14
+          "membros": 7
         },
         {
           "nome": "Boas novas",
           "lider": "Jesse",
           "lider2": "Vitória",
           "lider_cadastrado": false,
-          "membros": 12
+          "membros": 6
         },
         {
           "nome": "Aliançados",
           "lider": "Felipe",
           "lider2": "Natália",
           "lider_cadastrado": false,
-          "membros": 14
+          "membros": 7
         }
       ],
       "gcs_cadastrados": 0,
@@ -1586,28 +1939,28 @@
           "lider": "Valdenir",
           "lider2": "Neuma",
           "lider_cadastrado": false,
-          "membros": 8
+          "membros": 4
         },
         {
           "nome": "Gc Fonte de Água Viva",
           "lider": "Cysne Neto",
           "lider2": "Livia Cavalcante",
           "lider_cadastrado": false,
-          "membros": 4
+          "membros": 2
         },
         {
           "nome": "Gc Obediência",
           "lider": "Felipe",
           "lider2": "Bárbara",
           "lider_cadastrado": false,
-          "membros": 4
+          "membros": 2
         },
         {
           "nome": "Gc Palavra Viva",
           "lider": "Carlos Henrique",
           "lider2": "Livia Costa",
           "lider_cadastrado": false,
-          "membros": 4
+          "membros": 2
         }
       ],
       "gcs_cadastrados": 0,
@@ -1679,14 +2032,14 @@
           "lider": "Debora Feitosa",
           "lider2": "",
           "lider_cadastrado": false,
-          "membros": 10
+          "membros": 5
         },
         {
           "nome": "Convictas",
           "lider": "Rosa Torres",
           "lider2": "",
           "lider_cadastrado": true,
-          "membros": 10,
+          "membros": 0,
           "gc_nome_cadastrado": "A13 uni - Gc convictas"
         },
         {
@@ -1694,14 +2047,14 @@
           "lider": "Aprilia Rodrigues",
           "lider2": "",
           "lider_cadastrado": false,
-          "membros": 8
+          "membros": 4
         },
         {
           "nome": "Almejadas",
           "lider": "Dafne Pinheiro",
           "lider2": "",
           "lider_cadastrado": false,
-          "membros": 26
+          "membros": 13
         },
         {
           "nome": "Inabaláveis",
@@ -1730,7 +2083,7 @@
           "lider": "Filipe Pessoa",
           "lider2": "",
           "lider_cadastrado": true,
-          "membros": 4,
+          "membros": 3,
           "gc_nome_cadastrado": "GC Revival"
         },
         {
@@ -1745,7 +2098,7 @@
           "lider": "Ruan Teles",
           "lider2": "",
           "lider_cadastrado": true,
-          "membros": 4,
+          "membros": 2,
           "gc_nome_cadastrado": "Raiz"
         },
         {
@@ -1771,7 +2124,7 @@
           "lider": "Maria Eduarda Machado Frederico",
           "lider2": "",
           "lider_cadastrado": false,
-          "membros": 6
+          "membros": 3
         },
         {
           "nome": "Gc Fortes",
@@ -1786,14 +2139,14 @@
           "lider": "Gustavo Carvalho de Souza",
           "lider2": "",
           "lider_cadastrado": false,
-          "membros": 2
+          "membros": 1
         },
         {
           "nome": "Gc Intercessoras",
           "lider": "Maria Eduarda Neves Sampaio",
           "lider2": "",
           "lider_cadastrado": false,
-          "membros": 30
+          "membros": 15
         },
         {
           "nome": "Gc Martir",
@@ -1834,7 +2187,7 @@
           "lider": "Maria Eduarda de Oliveira Bezerra Medeiros",
           "lider2": "",
           "lider_cadastrado": true,
-          "membros": 4,
+          "membros": 2,
           "gc_nome_cadastrado": "Brilhantes"
         },
         {
@@ -1850,7 +2203,7 @@
           "lider": "Victor Miranda de Freitas",
           "lider2": "",
           "lider_cadastrado": true,
-          "membros": 2,
+          "membros": 1,
           "gc_nome_cadastrado": "GC Lamparinas"
         },
         {
@@ -1876,21 +2229,21 @@
           "lider": "Isabel Brasil",
           "lider2": "Édson Brasil",
           "lider_cadastrado": false,
-          "membros": 18
+          "membros": 9
         },
         {
           "nome": "Gc Até que Ele Volte",
           "lider": "Suianny Vieira",
           "lider2": "Hillison Vieira",
           "lider_cadastrado": false,
-          "membros": 4
+          "membros": 2
         },
         {
           "nome": "GC Celeiros Sul",
           "lider": "Kelly Souza",
           "lider2": "Deivis Souza",
           "lider_cadastrado": false,
-          "membros": 8
+          "membros": 4
         }
       ],
       "gcs_cadastrados": 0,
@@ -2021,7 +2374,7 @@
           "lider": "Wellington",
           "lider2": "Luzildene",
           "lider_cadastrado": false,
-          "membros": 2
+          "membros": 1
         }
       ],
       "gcs_cadastrados": 0,
@@ -2039,14 +2392,14 @@
           "lider": "Faby",
           "lider2": "Daniel",
           "lider_cadastrado": false,
-          "membros": 20
+          "membros": 10
         },
         {
           "nome": "GC Philos",
           "lider": "Claudinha",
           "lider2": "Guilherme",
           "lider_cadastrado": false,
-          "membros": 8
+          "membros": 4
         },
         {
           "nome": "GC Revayah",
@@ -2060,7 +2413,7 @@
           "lider": "Mara",
           "lider2": "Denisio",
           "lider_cadastrado": false,
-          "membros": 4
+          "membros": 2
         }
       ],
       "gcs_cadastrados": 0,
@@ -2116,7 +2469,7 @@
           "lider": "jessica joelma",
           "lider2": "",
           "lider_cadastrado": false,
-          "membros": 2
+          "membros": 1
         },
         {
           "nome": "Diligentes",
@@ -2152,7 +2505,7 @@
           "lider": "Gabrielly",
           "lider2": "",
           "lider_cadastrado": false,
-          "membros": 2
+          "membros": 1
         }
       ],
       "gcs_cadastrados": 1,
@@ -2188,7 +2541,7 @@
           "lider": "Cassio",
           "lider2": "Valéria",
           "lider_cadastrado": false,
-          "membros": 6
+          "membros": 3
         },
         {
           "nome": "GC Sal e Luz",
@@ -2209,7 +2562,7 @@
           "lider": "Rômulo",
           "lider2": "Thais",
           "lider_cadastrado": false,
-          "membros": 2
+          "membros": 1
         }
       ],
       "gcs_cadastrados": 0,
@@ -2235,7 +2588,7 @@
           "lider": "Juliana Vieira",
           "lider2": "",
           "lider_cadastrado": true,
-          "membros": 2,
+          "membros": 1,
           "gc_nome_cadastrado": "GC Lamparinas"
         },
         {
@@ -2243,7 +2596,7 @@
           "lider": "Katia Bosford",
           "lider2": "",
           "lider_cadastrado": false,
-          "membros": 8
+          "membros": 4
         },
         {
           "nome": "GC As Conquistadoras",
@@ -2269,7 +2622,7 @@
           "lider": "Beatriz Souza",
           "lider2": "",
           "lider_cadastrado": true,
-          "membros": 8,
+          "membros": 4,
           "gc_nome_cadastrado": "Gc das Pérolas"
         },
         {
@@ -2528,7 +2881,7 @@
           "lider": "Paula",
           "lider2": "Diego",
           "lider_cadastrado": false,
-          "membros": 2
+          "membros": 1
         }
       ],
       "gcs_cadastrados": 0,
@@ -2632,14 +2985,14 @@
           "lider": "Alfredo",
           "lider2": "Raquel",
           "lider_cadastrado": false,
-          "membros": 2
+          "membros": 1
         },
         {
           "nome": "GC Aliançados",
           "lider": "Everson",
           "lider2": "Nahara",
           "lider_cadastrado": false,
-          "membros": 4
+          "membros": 2
         }
       ],
       "gcs_cadastrados": 0,
@@ -2657,7 +3010,7 @@
           "lider": "Alailson",
           "lider2": "Allana",
           "lider_cadastrado": false,
-          "membros": 2
+          "membros": 1
         },
         {
           "nome": "Ungido de Deus",
