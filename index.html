@@ -30,11 +30,11 @@ header { background:var(--black); padding:20px 32px; display:flex; align-items:c
 .tbtn:not(.active):hover { background:var(--gray-100); }
 .panel { display:none; } .panel.active { display:block; }
 
-.stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:12px; margin-bottom:28px; }
-.scard { background:var(--white); border-radius:var(--radius); padding:18px 20px; box-shadow:var(--shadow); }
-.slabel { font-size:11px; font-weight:600; color:var(--gray-500); text-transform:uppercase; letter-spacing:.07em; margin-bottom:8px; }
-.sval   { font-size:32px; font-weight:600; color:var(--black); line-height:1; }
-.ssub   { font-size:11px; color:var(--gray-400); margin-top:6px; font-family:'DM Mono',monospace; }
+.stats { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-bottom:28px; }
+.scard { background:var(--white); border-radius:var(--radius); padding:20px 22px; box-shadow:var(--shadow); border:1px solid var(--gray-200); }
+.slabel { font-size:10px; font-weight:700; color:var(--gray-400); text-transform:uppercase; letter-spacing:.09em; margin-bottom:10px; }
+.sval   { font-size:36px; font-weight:700; color:var(--black); line-height:1; letter-spacing:-1px; }
+.ssub   { font-size:11px; color:var(--gray-300); margin-top:8px; font-family:'DM Mono',monospace; }
 
 .sec-title { font-size:13px; font-weight:600; color:var(--gray-700); text-transform:uppercase; letter-spacing:.07em; margin-bottom:14px; }
 
@@ -87,9 +87,13 @@ tr:hover td { background:var(--gray-50); }
 .empty { text-align:center; padding:40px 20px; color:var(--gray-400); font-size:13px; }
 .loading { text-align:center; padding:60px 20px; color:var(--gray-400); font-size:14px; }
 
+@media(max-width:900px){
+  .stats { grid-template-columns:repeat(2,1fr); }
+}
 @media(max-width:600px){
   header{padding:14px 16px;} .page{padding:16px 12px 60px;}
-  .sval{font-size:26px;} .tabs{width:100%;}
+  .stats { grid-template-columns:repeat(2,1fr); }
+  .sval{font-size:28px;} .tabs{width:100%;}
   .tbtn{flex:1;padding:8px 6px;font-size:11px;}
 }
 </style>
