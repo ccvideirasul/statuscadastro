@@ -120,6 +120,20 @@ tr:hover td { background:var(--gray-50); }
     <div id="statsGrid" class="stats" style="display:none"></div>
     <div class="sec-title" id="coordTitle" style="display:none">Progresso por coordenação</div>
     <div id="coordSummary"></div>
+
+    <div id="semGcSection" style="display:none;margin-top:28px">
+      <div class="sec-title" style="color:#dc2626">
+        Membros sem GC vinculado
+        <span id="semGcCount" style="font-size:11px;font-weight:400;color:#dc2626;margin-left:8px;font-family:'DM Mono',monospace"></span>
+      </div>
+      <div style="background:#fff;border-radius:12px;box-shadow:var(--shadow);overflow:hidden;margin-top:10px">
+        <table>
+          <thead><tr><th>Nome</th><th>GC declarado</th><th>Ministério</th></tr></thead>
+          <tbody id="semGcTable"></tbody>
+        </table>
+      </div>
+      <p style="font-size:11px;color:var(--gray-400);margin-top:8px">Estes membros preencheram o formulário mas o GC informado não foi reconhecido. Verifique manualmente o nome correto do GC.</p>
+    </div>
   </div>
 
   <div class="panel" id="tab-coord">
@@ -219,7 +233,7 @@ function renderGeral() {
   var s = DATA.stats;
   document.getElementById('statsGrid').innerHTML =
     stCard('Membros cadastrados', s.membros, 'formulários enviados') +
-    stCard('Coordenações', s.coordenacoes, 'com cadastro') +
+    stCard('Sem GC vinculado', s.membros_sem_gc, 'GC não reconhecido') +
     stCard('Supervisões cadastradas', s.supervisoes_cadastradas, 'formulários enviados') +
     stCard('GCs com líder cadastrado', s.gcs_cadastrados, 'formulários enviados');
 
@@ -235,6 +249,19 @@ function renderGeral() {
       '</div></div></div>';
   });
   document.getElementById('coordSummary').innerHTML = html || empty();
+
+  // Seção de membros sem GC vinculado
+  var semGC = DATA.membros_sem_gc || [];
+  if (semGC.length === 0) {
+    document.getElementById('semGcSection').style.display = 'none';
+    return;
+  }
+  document.getElementById('semGcSection').style.display = 'block';
+  document.getElementById('semGcCount').textContent = semGC.length + ' membro' + (semGC.length !== 1 ? 's' : '');
+  var rows = semGC.map(function(m) {
+    return '<tr><td>' + (m.nome || '—') + '</td><td>' + (m.gc || '—') + '</td><td>' + (m.min || '—') + '</td></tr>';
+  }).join('');
+  document.getElementById('semGcTable').innerHTML = rows;
 }
 function stCard(l,v,s){ return '<div class="scard"><div class="slabel">'+l+'</div><div class="sval">'+v+'</div><div class="ssub">'+s+'</div></div>'; }
 function ibox(l,v){ return '<div style="text-align:right"><div style="font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:var(--gray-400);margin-bottom:3px">'+l+'</div><div style="font-size:13px;font-weight:600">'+v+'</div></div>'; }
