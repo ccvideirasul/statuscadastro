@@ -13,7 +13,8 @@
   --gray-300: #c4c4c4; --gray-200: #e2e2e2; --gray-100: #f2f2f2;
   --gray-50: #f8f8f8; --white: #fff;
   --green: #16a37a; --green-light: #e6f7f2;
-  --amber: #d97706;  --amber-light: #fef3c7;
+  --amber: #d97706; --amber-light: #fef3c7;
+  --red: #dc2626; --red-light: #fee2e2;
   --border: #e2e2e2; --radius: 10px;
   --shadow: 0 1px 4px rgba(0,0,0,.07);
 }
@@ -21,7 +22,8 @@ body { font-family:'Sora',sans-serif; background:#ececec; color:var(--gray-900);
 header { background:var(--black); padding:20px 32px; display:flex; align-items:center; justify-content:space-between; position:sticky; top:0; z-index:100; }
 .hbrand { color:#fff; font-size:13px; font-weight:600; letter-spacing:.06em; text-transform:uppercase; }
 .hsub   { color:var(--gray-400); font-size:11px; font-family:'DM Mono',monospace; margin-top:2px; }
-.htime  { font-size:11px; color:var(--gray-400); font-family:'DM Mono',monospace; }
+.htime  { font-size:11px; color:var(--gray-400); font-family:'DM Mono',monospace; text-align:right; }
+.htime .hlabel { display:block; font-size:10px; color:var(--gray-600); margin-bottom:2px; }
 .page   { max-width:1100px; margin:0 auto; padding:28px 20px 60px; }
 
 .tabs { display:flex; gap:4px; margin-bottom:24px; background:var(--white); border-radius:10px; padding:4px; box-shadow:var(--shadow); width:fit-content; }
@@ -75,9 +77,9 @@ td { padding:8px 10px; border-bottom:1px solid var(--gray-100); color:var(--gray
 tr:last-child td { border-bottom:none; }
 tr:hover td { background:var(--gray-50); }
 .dot { width:8px; height:8px; border-radius:50%; display:inline-block; margin-right:6px; }
-.dg { background:var(--green); } .da { background:var(--amber); }
+.dg { background:var(--green); } .da { background:var(--amber); } .dz { background:var(--gray-300); }
 .sc { display:flex; align-items:center; }
-.tinf { font-size:10px; padding:1px 7px; border-radius:100px; background:#f0f0ff; color:#4444aa; font-weight:600; margin-left:6px; font-family:'DM Mono',monospace; }
+.tpend { font-size:10px; padding:1px 7px; border-radius:100px; background:#fff8e6; color:#92400e; font-weight:600; margin-left:6px; font-family:'DM Mono',monospace; }
 
 .minbtns { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:20px; }
 .mbtn { padding:7px 16px; border:1.5px solid var(--border); border-radius:100px; font-family:'Sora',sans-serif; font-size:12px; font-weight:500; cursor:pointer; background:var(--white); color:var(--gray-700); transition:all .15s; white-space:nowrap; }
@@ -86,10 +88,10 @@ tr:hover td { background:var(--gray-50); }
 
 .empty { text-align:center; padding:40px 20px; color:var(--gray-400); font-size:13px; }
 .loading { text-align:center; padding:60px 20px; color:var(--gray-400); font-size:14px; }
+.sem-gc-table { background:var(--white); border-radius:12px; box-shadow:var(--shadow); overflow:hidden; margin-top:10px; }
+.sem-gc-note { font-size:11px; color:var(--gray-400); margin-top:8px; }
 
-@media(max-width:900px){
-  .stats { grid-template-columns:repeat(2,1fr); }
-}
+@media(max-width:900px){ .stats { grid-template-columns:repeat(2,1fr); } }
 @media(max-width:600px){
   header{padding:14px 16px;} .page{padding:16px 12px 60px;}
   .stats { grid-template-columns:repeat(2,1fr); }
@@ -105,7 +107,10 @@ tr:hover td { background:var(--gray-50); }
     <div class="hbrand">CCVideira Sul</div>
     <div class="hsub">Painel de Acompanhamento — Migração InPeace</div>
   </div>
-  <div class="htime" id="htime"></div>
+  <div class="htime" id="htime">
+    <span class="hlabel">dados de</span>
+    <span id="htimeVal">carregando...</span>
+  </div>
 </header>
 
 <div class="page">
@@ -120,19 +125,16 @@ tr:hover td { background:var(--gray-50); }
     <div id="statsGrid" class="stats" style="display:none"></div>
     <div class="sec-title" id="coordTitle" style="display:none">Progresso por coordenação</div>
     <div id="coordSummary"></div>
-
     <div id="semGcSection" style="display:none;margin-top:28px">
-      <div class="sec-title" style="color:#dc2626">
+      <div class="sec-title" style="color:var(--red)">
         Membros sem GC vinculado
-        <span id="semGcCount" style="font-size:11px;font-weight:400;color:#dc2626;margin-left:8px;font-family:'DM Mono',monospace"></span>
+        <span id="semGcCount" style="font-size:11px;font-weight:400;margin-left:8px;font-family:'DM Mono',monospace"></span>
       </div>
-      <div style="background:#fff;border-radius:12px;box-shadow:var(--shadow);overflow:hidden;margin-top:10px">
-        <table>
-          <thead><tr><th>Nome</th><th>GC declarado</th><th>Ministério</th></tr></thead>
-          <tbody id="semGcTable"></tbody>
-        </table>
+      <div class="sem-gc-table">
+        <table><thead><tr><th>Nome</th><th>GC declarado</th><th>Ministério</th></tr></thead>
+        <tbody id="semGcTable"></tbody></table>
       </div>
-      <p style="font-size:11px;color:var(--gray-400);margin-top:8px">Estes membros preencheram o formulário mas o GC informado não foi reconhecido. Verifique manualmente o nome correto do GC.</p>
+      <p class="sem-gc-note">GC informado não foi reconhecido — verifique o nome correto e atualize o formulário.</p>
     </div>
   </div>
 
@@ -158,13 +160,12 @@ tr:hover td { background:var(--gray-50); }
 var DATA = null;
 var activeMin = '__all__';
 
-// ── Carregar dados do JSON externo ────────────────────────────
 fetch('dados.json')
   .then(function(r){ return r.json(); })
   .then(function(d){
     DATA = d;
-    document.getElementById('htime').textContent =
-      'Dados de 10/06/2026';
+    // Timestamp vem da planilha, não do momento de abertura
+    document.getElementById('htimeVal').textContent = d.last_update || '—';
     document.getElementById('loading-geral').style.display = 'none';
     document.getElementById('statsGrid').style.display = 'grid';
     document.getElementById('coordTitle').style.display = 'block';
@@ -175,17 +176,9 @@ fetch('dados.json')
   })
   .catch(function(err){
     document.getElementById('loading-geral').innerHTML =
-      '<span style="color:#dc2626">Erro ao carregar dados.json — certifique-se de que o arquivo está na mesma pasta.</span>';
+      '<span style="color:var(--red)">Erro ao carregar dados.json — verifique se está na mesma pasta.</span>';
     console.error(err);
   });
-
-// Event delegation para botões de ministério (evita problemas com onclick em strings complexas)
-document.addEventListener('click', function(e) {
-  var btn = e.target.closest('[data-min]');
-  if (btn && document.getElementById('minBtns').contains(btn)) {
-    setMin(btn.getAttribute('data-min'));
-  }
-});
 
 // ── Tabs ──────────────────────────────────────────────────────
 function showTab(id) {
@@ -195,7 +188,7 @@ function showTab(id) {
   document.getElementById('btn-'+id).classList.add('active');
 }
 
-// ── Toggle cards ──────────────────────────────────────────────
+// ── Toggle ────────────────────────────────────────────────────
 function tog(id) {
   var wrap = document.getElementById(id);
   var body = document.getElementById('body-'+id);
@@ -211,58 +204,57 @@ function tog(id) {
 function chev(id) {
   return '<svg class="chevron" id="chev-'+id+'" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>';
 }
+function empty() { return '<div class="empty">Nenhum resultado.</div>'; }
+
 function gcTable(gcs) {
-  if (!gcs || gcs.length === 0)
+  if (!gcs || !gcs.length)
     return '<table><tbody><tr><td colspan="4" style="color:var(--gray-400);font-style:italic">Nenhum GC registrado.</td></tr></tbody></table>';
   var rows = gcs.map(function(g) {
-    var dot  = g.lider_cadastrado ? 'dg' : 'da';
-    var ldr  = g.lider || g.lider2 || '—';
-    var tag  = g.inferido ? '<span class="tinf">inferido</span>' : '';
-    var mem  = g.membros > 0 ? g.membros + (g.membros>1?' membros':' membro') : '—';
-    return '<tr><td>'+(g.nome||'—')+tag+'</td><td>'+ldr+'</td>'+
-           '<td><span class="sc"><span class="dot '+dot+'"></span>'+(g.lider_cadastrado?'Cadastrado':'Pendente')+'</span></td>'+
-           '<td>'+mem+'</td></tr>';
+    var dot  = g.lider_cadastrado ? 'dg' : (g.pendente ? 'dz' : 'da');
+    var stat = g.lider_cadastrado ? 'Cadastrado' : 'Pendente';
+    var tag  = g.pendente ? '<span class="tpend">pendente</span>' : '';
+    return '<tr><td>'+g.label+tag+'</td>'+
+           '<td><span class="sc"><span class="dot '+dot+'"></span>'+stat+'</span></td>'+
+           '<td>'+g.membros+'</td></tr>';
   }).join('');
-  return '<table><thead><tr><th>GC</th><th>Líder</th><th>Status</th><th>Membros</th></tr></thead><tbody>'+rows+'</tbody></table>';
+  return '<table><thead><tr><th>GC</th><th>Status</th><th>Membros</th></tr></thead><tbody>'+rows+'</tbody></table>';
 }
-function empty() { return '<div class="empty">Nenhum resultado.</div>'; }
 
 // ── Visão Geral ───────────────────────────────────────────────
 function renderGeral() {
   var s = DATA.stats;
   document.getElementById('statsGrid').innerHTML =
-    stCard('Membros cadastrados', s.membros, 'formulários enviados') +
-    stCard('Sem GC vinculado', s.membros_sem_gc, 'GC não reconhecido') +
-    stCard('Supervisões cadastradas', s.supervisoes_cadastradas, 'formulários enviados') +
-    stCard('GCs com líder cadastrado', s.gcs_cadastrados, 'formulários enviados');
+    sc('Membros cadastrados',       s.membros,                  'formulários enviados') +
+    sc('Sem GC vinculado',          s.membros_sem_gc,           'GC não reconhecido') +
+    sc('Supervisões cadastradas',   s.supervisoes_cadastradas,  'formulários enviados') +
+    sc('GCs com líder cadastrado',  s.gcs_cadastrados,          'de '+(s.gcs_cadastrados+s.gcs_pendentes)+' declarados');
 
   var html = '';
   DATA.coords.forEach(function(c) {
     var cadSup = c.supervisoes.length;
     var cadGC  = c.supervisoes.reduce(function(a,s){ return a+s.gcs_cadastrados; }, 0);
-    html += '<div class="card" style="margin-bottom:8px"><div style="padding:14px 18px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px">'+
-      '<div><div class="cname">'+c.nome+'</div><div class="cmeta">'+(c.coord1||'')+(c.coord2?' · '+c.coord2:'')+'</div></div>'+
-      '<div style="display:flex;gap:20px;flex-wrap:wrap">'+
-        ibox('Supervisões', cadSup+' cadastradas')+
-        ibox('GCs', cadGC+' c/ líder')+
-      '</div></div></div>';
+    var totGC  = c.supervisoes.reduce(function(a,s){ return a+s.total_gcs; }, 0);
+    html +=
+      '<div class="card" style="margin-bottom:8px"><div style="padding:14px 18px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px">'+
+        '<div><div class="cname">'+c.label+'</div></div>'+
+        '<div style="display:flex;gap:20px;flex-wrap:wrap">'+
+          ibox('Supervisões', cadSup+' cadastradas')+
+          ibox('GCs', cadGC+' cadastrados / '+totGC+' declarados')+
+        '</div>'+
+      '</div></div>';
   });
   document.getElementById('coordSummary').innerHTML = html || empty();
 
-  // Seção de membros sem GC vinculado
   var semGC = DATA.membros_sem_gc || [];
-  if (semGC.length === 0) {
-    document.getElementById('semGcSection').style.display = 'none';
-    return;
+  if (semGC.length > 0) {
+    document.getElementById('semGcSection').style.display = 'block';
+    document.getElementById('semGcCount').textContent = semGC.length + ' membro'+(semGC.length!==1?'s':'');
+    document.getElementById('semGcTable').innerHTML = semGC.map(function(m){
+      return '<tr><td>'+(m.nome||'—')+'</td><td>'+(m.gc||'—')+'</td><td>'+(m.min||'—')+'</td></tr>';
+    }).join('');
   }
-  document.getElementById('semGcSection').style.display = 'block';
-  document.getElementById('semGcCount').textContent = semGC.length + ' membro' + (semGC.length !== 1 ? 's' : '');
-  var rows = semGC.map(function(m) {
-    return '<tr><td>' + (m.nome || '—') + '</td><td>' + (m.gc || '—') + '</td><td>' + (m.min || '—') + '</td></tr>';
-  }).join('');
-  document.getElementById('semGcTable').innerHTML = rows;
 }
-function stCard(l,v,s){ return '<div class="scard"><div class="slabel">'+l+'</div><div class="sval">'+v+'</div><div class="ssub">'+s+'</div></div>'; }
+function sc(l,v,s){ return '<div class="scard"><div class="slabel">'+l+'</div><div class="sval">'+v+'</div><div class="ssub">'+s+'</div></div>'; }
 function ibox(l,v){ return '<div style="text-align:right"><div style="font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:var(--gray-400);margin-bottom:3px">'+l+'</div><div style="font-size:13px;font-weight:600">'+v+'</div></div>'; }
 
 // ── Por Coordenação ───────────────────────────────────────────
@@ -273,28 +265,24 @@ function renderCoords() {
 
   DATA.coords.forEach(function(c, ci) {
     var matchC = !filter ||
-      (c.nome||'').toLowerCase().includes(filter) ||
-      (c.coord1||'').toLowerCase().includes(filter) ||
-      (c.coord2||'').toLowerCase().includes(filter);
-    var visSups = c.supervisoes.filter(function(s){
-      return matchC ||
-        (s.nome||'').toLowerCase().includes(filter) ||
-        (s.sup1||'').toLowerCase().includes(filter) ||
-        s.gcs.some(function(g){ return (g.nome||'').toLowerCase().includes(filter); });
-    });
-    if (!matchC && visSups.length === 0) return;
+      c.label.toLowerCase().includes(filter) ||
+      c.supervisoes.some(function(s){ return s.label.toLowerCase().includes(filter) ||
+        s.gcs.some(function(g){ return g.label.toLowerCase().includes(filter); }); });
+    if (!matchC) return;
 
-    var cadGC = visSups.reduce(function(a,s){ return a+s.gcs_cadastrados; }, 0);
+    var cadSup = c.supervisoes.length;
+    var cadGC  = c.supervisoes.reduce(function(a,s){ return a+s.gcs_cadastrados; }, 0);
+    var totGC  = c.supervisoes.reduce(function(a,s){ return a+s.total_gcs; }, 0);
     var cid = 'cc'+ci;
 
-    var supHtml = visSups.map(function(s, si) {
+    var supHtml = c.supervisoes.map(function(s, si) {
       var sid = 'cs'+ci+'x'+si;
       return '<div class="scard2" id="'+sid+'">'+
         '<div class="scard2-hdr" onclick="tog(\''+sid+'\')">'+
-          '<div><div class="sname">'+(s.nome||'')+'</div>'+
-          '<div class="smeta">'+(s.sup1||'')+(s.sup2?' · '+s.sup2:'')+'</div></div>'+
+          '<div><div class="sname">'+s.label+'</div></div>'+
           '<div style="display:flex;align-items:center;gap:10px">'+
-            '<span style="font-size:11px;color:var(--gray-400);font-family:\'DM Mono\',monospace">'+s.gcs_cadastrados+' GC'+(s.gcs_cadastrados!==1?'s':'')+' c/ líder</span>'+
+            '<span style="font-size:11px;color:var(--gray-400);font-family:\'DM Mono\',monospace">'+
+              s.gcs_cadastrados+'/'+s.total_gcs+' GCs</span>'+
             chev(sid)+
           '</div>'+
         '</div>'+
@@ -304,17 +292,15 @@ function renderCoords() {
 
     html += '<div class="card" id="'+cid+'">'+
       '<div class="card-hdr" onclick="tog(\''+cid+'\')">'+
-        '<div><div class="cname">'+(c.nome||'')+'</div>'+
-        '<div class="cmeta">'+(c.coord1||'')+(c.coord2?' · '+c.coord2:'')+'</div></div>'+
+        '<div><div class="cname">'+c.label+'</div></div>'+
         '<div class="cright">'+
-          '<span class="badge bgr">'+visSups.length+' sups · '+cadGC+' GCs c/ líder</span>'+
+          '<span class="badge bgr">'+cadSup+' sups · '+cadGC+'/'+totGC+' GCs</span>'+
           chev(cid)+
         '</div>'+
       '</div>'+
       '<div class="card-body" id="body-'+cid+'">'+(supHtml||empty())+'</div>'+
     '</div>';
   });
-
   document.getElementById('coordList').innerHTML = html || empty();
 }
 
@@ -324,53 +310,52 @@ function renderMinBtns() {
   var mins = DATA.ministerios || [];
   var wrap = document.getElementById('minBtns');
   wrap.innerHTML = '';
-  function makeBtn(label, minVal) {
+  function mk(lbl, val) {
     var btn = document.createElement('button');
-    btn.className = 'mbtn' + (activeMin === minVal ? ' active' : '');
-    btn.textContent = label;
-    btn.setAttribute('data-min', minVal);
+    btn.className = 'mbtn' + (activeMin===val?' active':'');
+    btn.textContent = lbl;
+    btn.setAttribute('data-min', val);
     wrap.appendChild(btn);
   }
-  makeBtn('Todos', '__all__');
-  mins.forEach(function(m){
-    makeBtn(m.replace(' — ',' ').replace(' anos','').trim(), m);
-  });
+  mk('Todos', '__all__');
+  mins.forEach(function(m){ mk(m.replace(' — ',' ').replace(' anos','').trim(), m); });
 }
 
-
-function setMin(m) {
-  activeMin = m;
-  renderMinBtns();
-  renderSups();
-}
+document.addEventListener('click', function(e) {
+  var btn = e.target.closest('[data-min]');
+  if (btn && document.getElementById('minBtns').contains(btn)) {
+    activeMin = btn.getAttribute('data-min');
+    renderMinBtns();
+    renderSups();
+  }
+});
 
 function renderSups() {
   if (!DATA) return;
   var filter = (document.getElementById('searchSup').value||'').toLowerCase();
   var html = '';
-
   DATA.supervisoes.forEach(function(s, si) {
     if (activeMin !== '__all__' && s.ministerio !== activeMin) return;
-    if (filter &&
-      !(s.nome||'').toLowerCase().includes(filter) &&
-      !(s.sup1||'').toLowerCase().includes(filter) &&
-      !(s.sup2||'').toLowerCase().includes(filter)) return;
-
+    if (filter && !s.label.toLowerCase().includes(filter) &&
+        !(s.sup1||'').toLowerCase().includes(filter) &&
+        !(s.sup2||'').toLowerCase().includes(filter)) return;
     var sid = 'sc'+si;
     html += '<div class="card" id="'+sid+'">'+
       '<div class="card-hdr" onclick="tog(\''+sid+'\')">'+
-        '<div><div class="cname">'+(s.nome||'')+'</div>'+
-        '<div class="cmeta">'+(s.sup1||'')+(s.sup2?' · '+s.sup2:'')+(s.coord?'<span style="color:var(--gray-300)"> · </span>'+s.coord:'')+'</div></div>'+
+        '<div>'+
+          '<div class="cname">'+s.label+'</div>'+
+          '<div class="cmeta">'+(s.coord||'Sem coordenação vinculada')+'</div>'+
+        '</div>'+
         '<div class="cright">'+
-          '<span class="badge bgr">'+(s.ministerio||'')+'</span>'+
-          '<span style="font-size:11px;color:var(--gray-400);font-family:\'DM Mono\',monospace">'+s.gcs_cadastrados+' GC'+(s.gcs_cadastrados!==1?'s':'')+' c/ líder</span>'+
+          '<span class="badge bgr">'+s.ministerio+'</span>'+
+          '<span style="font-size:11px;color:var(--gray-400);font-family:\'DM Mono\',monospace">'+
+            s.gcs_cadastrados+'/'+s.total_gcs+' GCs</span>'+
           chev(sid)+
         '</div>'+
       '</div>'+
       '<div class="card-body" id="body-'+sid+'">'+gcTable(s.gcs)+'</div>'+
     '</div>';
   });
-
   document.getElementById('supList').innerHTML = html || empty();
 }
 </script>
