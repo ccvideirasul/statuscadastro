@@ -1,14 +1,14 @@
 {
-  "last_update": "12/06/2026 10:54",
+  "last_update": "13/06/2026 09:39",
   "stats": {
     "coordenacoes": 8,
     "supervisoes_cadastradas": 31,
     "supervisoes_sem_coord": 1,
     "gcs_cadastrados": 35,
     "gcs_pendentes": 116,
-    "membros": 518,
-    "membros_vinculados": 744,
-    "membros_sem_gc": 23
+    "membros": 540,
+    "membros_vinculados": 771,
+    "membros_sem_gc": 25
   },
   "coords": [
     {
@@ -610,7 +610,7 @@
               "ministerio": "Somos Um (Casais)",
               "lider_cadastrado": false,
               "pendente": true,
-              "membros": 0,
+              "membros": 8,
               "inferido": false
             },
             {
@@ -756,7 +756,7 @@
               "ministerio": "Somos Um (Casais)",
               "lider_cadastrado": false,
               "pendente": true,
-              "membros": 2,
+              "membros": 6,
               "inferido": false
             },
             {
@@ -1196,7 +1196,7 @@
               "ministerio": "Somos Um (Rede MC)",
               "lider_cadastrado": true,
               "pendente": false,
-              "membros": 7,
+              "membros": 11,
               "inferido": false
             },
             {
@@ -1260,7 +1260,7 @@
               "ministerio": "Somos Um (Casais)",
               "lider_cadastrado": false,
               "pendente": true,
-              "membros": 26,
+              "membros": 28,
               "inferido": false
             }
           ],
@@ -1768,7 +1768,7 @@
               "ministerio": "A13 School — 15 a 17 anos",
               "lider_cadastrado": false,
               "pendente": true,
-              "membros": 0,
+              "membros": 8,
               "inferido": false
             }
           ],
@@ -2051,7 +2051,7 @@
               "ministerio": "Inspire — 35+",
               "lider_cadastrado": false,
               "pendente": true,
-              "membros": 1,
+              "membros": 2,
               "inferido": false
             }
           ],
@@ -2424,7 +2424,7 @@
           "ministerio": "A13 School — 15 a 17 anos",
           "lider_cadastrado": false,
           "pendente": true,
-          "membros": 0,
+          "membros": 8,
           "inferido": false
         }
       ],
@@ -2780,7 +2780,7 @@
           "ministerio": "Somos Um (Casais)",
           "lider_cadastrado": false,
           "pendente": true,
-          "membros": 26,
+          "membros": 28,
           "inferido": false
         }
       ],
@@ -3014,7 +3014,7 @@
           "ministerio": "Somos Um (Casais)",
           "lider_cadastrado": false,
           "pendente": true,
-          "membros": 0,
+          "membros": 8,
           "inferido": false
         },
         {
@@ -3685,7 +3685,7 @@
           "ministerio": "Somos Um (Casais)",
           "lider_cadastrado": false,
           "pendente": true,
-          "membros": 2,
+          "membros": 6,
           "inferido": false
         },
         {
@@ -3819,7 +3819,7 @@
           "ministerio": "Inspire — 35+",
           "lider_cadastrado": false,
           "pendente": true,
-          "membros": 1,
+          "membros": 2,
           "inferido": false
         }
       ],
@@ -4021,7 +4021,7 @@
           "ministerio": "Somos Um (Rede MC)",
           "lider_cadastrado": true,
           "pendente": false,
-          "membros": 7,
+          "membros": 11,
           "inferido": false
         },
         {
@@ -4162,6 +4162,16 @@
     {
       "nome": "Ana América Rodrigues",
       "gc": "Reavivadas pela a palavra",
+      "min": "Inspire — 35+"
+    },
+    {
+      "nome": "Karoline Rocha Farias",
+      "gc": "Gc Completas - A13 School Sul",
+      "min": "A13 School — 15 a 17 anos"
+    },
+    {
+      "nome": "Cláudia Regina Gonçalves Moreira",
+      "gc": "Agraciadas",
       "min": "Inspire — 35+"
     }
   ]
